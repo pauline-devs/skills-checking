@@ -1,0 +1,127 @@
+@font-face {
+    font-family: "Karrik";
+    src: url("/public/fonts/Inter-Medium.woff2") format("woff2");
+  }
+  
+  #about {
+    padding-left: 15%;
+    padding-right: 25%;
+    min-height: 60vh;
+  }
+
+  .section-header {
+    margin-bottom: 7vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  div #thinLine {
+    border-bottom:0.7px solid white;
+    width: 30%;
+    margin-top: 1vh;
+  }
+
+  .section-title{
+    font-family: "Karrik", sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 2em;
+    margin-right: 2vw;
+  }
+
+  .about-description ul {
+    padding-top: 20px;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 20px));
+  }
+  
+  .about-description li {
+    position: relative;
+    padding-left: 20px;
+    font-size: 18px;
+    color: var(--slate);
+  }
+  
+  .about-description li::before {
+    content: "⬪   "; /*  ▹  */
+    color: var(--green-bright);
+    position: absolute;
+    left: 0;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.1em;
+    line-height: 1.3em;
+  }
+  
+  .about-description {
+    font-family: "Karrik", sans-serif;
+    color: var(--slate);
+    max-width: 600px;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    text-align: justify;
+    margin: 0;
+  }
+  
+  .about-description a,
+  .about-description b {
+    font-size: 1em;
+    line-height: 1.3em;
+    font-weight: bold;
+  }
+  
+  .about-image {
+    padding-left: 40px;
+  }
+  
+  .about-image img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 30px;
+    box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.46);
+    border: none;
+  }
+  
+  @media only screen and (max-width: 788px) {
+    .about-image img {
+      max-width: 200px;
+    }
+  }
+  
+  .about-image:hover {
+    transform: translateY(-7px);
+  }
+  
+  @media only screen and (max-width: 600px) {
+    #about {
+      height: unset;
+      padding-left: unset;
+      padding-right: unset;
+      padding-top: 30%;
+    }
+  
+    .about-description {
+      font-size: 18px;
+      text-align: justify;
+    }
+  
+    .about-description a,
+    .about-description b {
+      font-size: 17px;
+    }
+  
+    .about-image img {
+      display: none;
+    }
+  
+    .about-content {
+      display: unset;
+    }
+  }
+  
