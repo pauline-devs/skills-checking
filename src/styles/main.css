@@ -12,6 +12,10 @@
     --green-tint: rgba(100, 255, 218, 0.1);
   }
 
-  body {
+  body #dark #content{
     background-color: black;
+  }
+
+  #light #content{
+    background-color: white;
   }

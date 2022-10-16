@@ -23,7 +23,7 @@ class Projects extends React.Component {
       "Une Rime en Or": {
         desc:
           "A responsive web-game application created for RapMinerz, with a Flask back-end.",
-        techStack: "#Python(Flask), #Bootstrap, #Pandas Library",
+        techStack: "#Python(Flask), #CSS, #JS, #Pandas Library",
         link: "https://apps.rapminerz.io/rhyme-panel/",
         open: "https://www.rapminerz.io/"
       },

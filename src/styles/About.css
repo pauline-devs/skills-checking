@@ -77,13 +77,15 @@
   
   .about-image {
     padding-left: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
   
   .about-image img {
     max-width: 300px;
     height: auto;
     border-radius: 10px;
-    margin-left: 30px;
     box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.46);
     border: none;
   }

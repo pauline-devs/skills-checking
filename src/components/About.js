@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/About.css";
 import FadeInSection from "./FadeInSection";
+import MagicAsk from "./MagicAsk";
 
 class About extends React.Component {
   constructor() {
@@ -27,7 +28,7 @@ class About extends React.Component {
     const two = (
       <p>
         Outside of work, I am interested in following the developments of
-        art and tech. I have strong interest in music, drawing, 3D & video-game arts, reading comics and mangas.
+        art and tech. I have strong interest in music, drawing, animation & video-game arts, reading comics and mangas.
         I think I am an enthousiastic learner who loves to explore life.
         I also experiment art stuff sometimes - I invite you to check <a href="https://"> my instagram </a> account 
         if you are interested in knowing my universe (°_°)
@@ -71,7 +72,8 @@ class About extends React.Component {
               {[two]}
             </div>
             <div className="about-image">
-              <img src={"/assets/me.gif"} />
+              <img src={"/assets/alakazam-1.gif"} />
+              <MagicAsk></MagicAsk>
             </div>
           </div>
         </FadeInSection>
