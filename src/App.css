@@ -2,11 +2,39 @@
     font-family: "Karrik";
     src: url("/public/fonts/Inter-Medium.woff2") format("woff2");
   }
-
+  
 html {
     scroll-behavior: smooth;
   }
-  
+
+  body #dark #content{
+    background-color: black;
+  }
+
+  body #light #content{
+    background: linear-gradient(270deg, var(--indigo-tint), var(--light-beige));
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 21s ease infinite;
+    -moz-animation: AnimationName 21s ease infinite;
+    animation: AnimationName 21s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
   /* Animation */
   
   .fade-in-section {
