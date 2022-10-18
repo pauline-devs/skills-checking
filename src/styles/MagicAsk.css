@@ -1,5 +1,4 @@
 .magicAsk{
-    background-color: #252d4a;
     max-width: 300px;
     min-height: 200px;
     height: min-content;
@@ -41,14 +40,25 @@
     margin-top: 2vh;
   }
   
-  .question-count {
+  body #dark .question-count {
     margin-bottom: 10px;
     color: var(--slate);
   }
+
+  body #light .question-count {
+    margin-bottom: 10px;
+    color: black;
+  }
   
-  .question-count span {
+  body #dark .question-count span {
     font-size: 18px;
     color: var(--slate);
+    font-family: "Karrik", sans-serif;
+  }
+
+  body #light .question-count span {
+    font-size: 18px;
+    color: black;
     font-family: "Karrik", sans-serif;
   }
   
@@ -67,7 +77,7 @@
     justify-content: space-between;
   }
   
-  button {
+  body #dark #magic-button {
     width: 300px;
     max-width: 300px;
     font-family: "Karrik", sans-serif;
@@ -81,12 +91,40 @@
     margin: 10px;
     justify-content: center;
     align-items: center;
-    border: 1px solid #234668;
+    border: 1px solid #252d4a;
+    cursor: pointer;
+  }
+
+  body #light #magic-button {
+    width: 300px;
+    max-width: 300px;
+    font-family: "Karrik", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: var(--lightest-slate);
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #252d4a;
     cursor: pointer;
   }
   
-  button:hover, button:before, button:after{
+  body #dark #magic-button:hover, #magic-button:before, #magic-button:after{
     background-color: #555e7d;
+    border-color: #555e7d;
+    transform: scale(1.05);
+    transition: ease, cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 0.4s;
+  }
+
+  body #light #magic-button:hover, #magic-button:before, #magic-button:after{
+    background-color: #ced4da;
+    border-color: #ced4da;
+    color: black;
     transform: scale(1.05);
     transition: ease, cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 0.4s;

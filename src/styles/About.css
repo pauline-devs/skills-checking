@@ -10,7 +10,6 @@
   }
 
   .section-header {
-    margin-bottom: 7vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -22,9 +21,17 @@
     margin-top: 1vh;
   }
 
-   .section-title {
+  body #dark .section-title {
     font-family: "Karrik", sans-serif;
     color: white;
+    font-weight: 700;
+    font-size: 2em;
+    margin-right: 2vw;
+  }
+
+  body #light .section-title {
+    font-family: "Karrik", sans-serif;
+    color: black;
     font-weight: 700;
     font-size: 2em;
     margin-right: 2vw;
@@ -37,16 +44,30 @@
     grid-template-columns: repeat(2, minmax(250px, 20px));
   }
   
-  .about-description li {
+  body #dark .about-description li {
     position: relative;
     padding-left: 20px;
     font-size: 18px;
     color: var(--slate);
   }
+
+  body #light .about-description li {
+    position: relative;
+    padding-left: 20px;
+    font-size: 18px;
+    color: black;
+  }
   
-  .about-description li::before {
+  body #dark .about-description li::before {
     content: "⬪   "; /*  ▹  */
     color: var(--green-bright);
+    position: absolute;
+    left: 0;
+  }
+
+  body #light .about-description li::before {
+    content: "⬪   "; /*  ▹  */
+    color: black;
     position: absolute;
     left: 0;
   }
@@ -58,9 +79,19 @@
     line-height: 1.3em;
   }
   
-  .about-description {
+  body #dark .about-description {
     font-family: "Karrik", sans-serif;
     color: var(--slate);
+    max-width: 600px;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    text-align: justify;
+    margin: 0;
+  }
+
+  body #light .about-description {
+    font-family: "Karrik", sans-serif;
+    color: black;
     max-width: 600px;
     font-size: 1.1em;
     line-height: 1.3em;

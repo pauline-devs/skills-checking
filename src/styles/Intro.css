@@ -3,20 +3,33 @@
     flex-direction: column;
     align-items: flex-start;
     padding-left: 15%;
-    padding-top: 15%;
+    padding-top: 10%;
     min-height: 100vh;
 }
 
-.Typist {
+body #dark .Typist {
     color: var(--lightest-slate);
     text-align: center;
     font-size: 76px;
     margin-top: -30px;
 }
 
-.Typist .Cursor--blinking{
+body #light .Typist {
+  color: black;
+  text-align: center;
+  font-size: 76px;
+  margin-top: -30px;
+}
+
+body #dark .Typist .Cursor--blinking{
     color: var(--green-bright);
     padding-left: 4px;
+}
+
+body #light .Typist .Cursor--blinking{
+  color: #ced4da;
+  text-shadow: 0.5px 0.5px 1px black;
+  padding-left: 4px;
 }
 
 .intro-title{
@@ -24,13 +37,19 @@
     font-size: 1em;
 }
 
-.intro-name{
+body #dark .intro-name{
     font-family: "Karrik", sans-serif;
     font-size: 1em;
     color: var(--green-bright);
 }
 
-.intro-subtitle{
+body #light .intro-name{
+  font-family: "Karrik", sans-serif;
+  font-size: 1em;
+  color: #ced4da;
+}
+
+body #dark .intro-subtitle{
     font-family: "Karrik", sans-serif;
     color: var(--slate);
     font-weight: 500;
@@ -38,7 +57,15 @@
     line-height: 1.15em;
 }
 
-.intro-desc{
+body #light .intro-subtitle{
+  font-family: "Karrik", sans-serif;
+  color: black;
+  font-weight: 500;
+  font-size: 2em;
+  line-height: 1.15em;
+}
+
+body #dark .intro-desc{
     font-family: "Karrik", sans-serif;
     color: var(--slate);
     font-size: 1.2em;
@@ -49,6 +76,17 @@
     margin-top: 5vh;
 }
 
+body #light .intro-desc{
+  font-family: "Karrik", sans-serif;
+  color: black;
+  font-size: 1.2em;
+  text-align: justify;
+  padding-bottom: 50px;
+  max-width: 50%;
+  line-height: 1.3em;
+  margin-top: 5vh;
+}
+
 .stretch, .intro-contact:after, .intro-contact:before {
   bottom: 0;
   left: 0;
@@ -56,7 +94,7 @@
   top: 0;
 }
 
-.intro-contact{
+body #dark .intro-contact{
     font-family: "Karrik", sans-serif;
     font-weight: bold;
     font-size: 1.2em;
@@ -66,8 +104,22 @@
     border-radius: 3px;
 }
 
-.intro-contact:hover{
+body #light .intro-contact{
+  font-family: "Karrik", sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 25px 25px;
+  cursor: pointer;
+  border: 1.5px solid black;
+  border-radius: 3px;
+}
+
+body #dark .intro-contact:hover{
     background-color: var(--lightest-navy);
+}
+
+body #light .intro-contact:hover{
+  background-color: black;
 }
 
 b{

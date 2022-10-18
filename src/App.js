@@ -1,13 +1,18 @@
 import React, { useState } from "react";
+
 import Intro from "./components/Intro";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Creations from "./components/Creations";
 import Credits from "./components/Credits";
 import SidebarNav from "./components/SidebarNav";
+import Cursor from './components/Cursor';
+
 import "./App.css";
 import "./styles/Global.css";
-import ReactSwitch from "react-switch";
+
+//import ReactSwitch from "react-switch";
+import { DarkModeSwitch } from 'react-toggle-dark-mode';
 import PlaySoundDark from "./components/PlaySoundDark";
 import PlaySoundLight from "./components/PlaySoundLight";
 
@@ -31,13 +36,14 @@ function App() {
         <div id="content">
           <div class="header">
             <div class="switch">
-              <ReactSwitch onChange={toggleTheme} checked={ theme==="dark" } />
+              <DarkModeSwitch style={{ width: '5vh', height: '5vh'  }} onChange={toggleTheme} checked={ theme==="dark" } />
             </div>
               {theme==="dark"
                 ? <PlaySoundDark />
                 : <PlaySoundLight />
               }
           </div>
+          <Cursor></Cursor>
           <Intro></Intro>
           <About></About>
           <Experience></Experience>

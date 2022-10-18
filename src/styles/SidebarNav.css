@@ -27,13 +27,22 @@
     background-color: transparent!important;
   }
 
-  a {
+  body #dark a {
     text-decoration: none !important;
     color: var(--green-bright) !important;
   }
+
+  body #light a {
+    text-decoration: none !important;
+    color: black!important;
+  }
   
-  a:hover {
+  body #dark a:hover {
     color: var(--lightest-slate) !important;
+  }
+
+  body #light a:hover {
+    color: #ced4da !important;
   }
   
   .sidebar-logos {

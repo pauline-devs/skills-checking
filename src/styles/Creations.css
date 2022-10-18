@@ -29,7 +29,7 @@
     }
   }
   
-  .projects-card {
+  body #dark .projects-card {
     position: relative;
     cursor: default;
     display: flex;
@@ -40,6 +40,19 @@
     background-color: black;
     border-radius: 16px;
     border: 1px solid var(--green-bright);
+  }
+
+  body #light .projects-card {
+    position: relative;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    padding: 2rem 1.75rem;
+    background-color: black;
+    border-radius: 16px;
+    border: 1px solid black;
   }
   
   .projects-card:hover {
@@ -55,8 +68,12 @@
     justify-content: space-between;
     border-bottom: none !important;
   }
-  .folder-icon {
+  body #dark .folder-icon {
     color: var(--green-bright);
+  }
+
+  body #light .folder-icon {
+    color: var(--lightest-slate);
   }
   
   .github-icon {
@@ -68,6 +85,7 @@
   
   .open-icon {
     margin-left: 10px;
+    cursor: pointer;
   }
   
   .card-title {

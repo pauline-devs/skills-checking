@@ -11,30 +11,56 @@
     align-items: center;
   }
 
-  div #thinLine {
+  body #dark div #thinLine {
     border-bottom:0.7px solid white;
     width: 25%;
     margin-top: 1vh;
   }
 
-  .joblist-job-title {
+  body #light div #thinLine {
+    border-bottom: 1.5px solid black;
+    width: 25%;
+    margin-top: 1vh;
+  }
+
+  body #dark .joblist-job-title {
     font-family: "Karrik", sans-serif;
     font-size: 28px;
     font-weight: bold;
     color: var(--lightest-slate);
   }
+
+  body #light .joblist-job-title {
+    font-family: "Karrik", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+  }
   
-  .joblist-job-company {
+  body #dark .joblist-job-company {
     font-family: "Karrik", sans-serif;
     font-size: 28px;
     color: var(--green-bright);
     font-weight: bold;
   }
+
+  body #light .joblist-job-company {
+    font-family: "Karrik", sans-serif;
+    font-size: 28px;
+    color: black;
+    font-weight: bold;
+  }
   
-  .joblist-duration {
+  body #dark .joblist-duration {
     font-family: "Karrik", sans-serif;
     font-size: 18px;
     color: var(--slate);
+  }
+
+  body #light .joblist-duration {
+    font-family: "Karrik", sans-serif;
+    font-size: 18px;
+    color: black;
   }
   
   #vertical-tabpanel {
@@ -49,46 +75,86 @@
     font-family: "Karrik", sans-serif;
   }
   
-  .MuiButtonBase-root {
+  body #dark .MuiButtonBase-root {
     outline: none !important;
     color: var(--lightest-slate) !important;
   }
+
+  body #light .MuiButtonBase-root {
+    outline: none !important;
+    color: black !important;
+  }
   
-  .PrivateTabIndicator-colorSecondary-5 {
+  body #dark .PrivateTabIndicator-colorSecondary-5 {
     background-color: var(--green-bright) !important;
   }
-  .jss5 {
+
+  body #light .PrivateTabIndicator-colorSecondary-5 {
+    background-color: #ced4da !important;
+  }
+
+  body #dark .jss5 {
     background-color: var(--green-bright) !important;
   }
-  .makeStyles-tabs-2 {
+
+  body #light .jss5 {
+    background-color: #ced4da !important;
+  }
+
+
+  body #dark .makeStyles-tabs-2 {
     border-right: 1px solid black !important;
   }
+
   #experience .MuiTab-root {
     padding: 6px 20px;
   }
-  .MuiButtonBase-root:focus {
+
+  body #dark .MuiButtonBase-root:focus {
     color: var(--green-bright) !important;
   }
+
+  body #light .MuiButtonBase-root:focus {
+    color: #ced4da !important;
+  }
+
+  
   
   ul {
     list-style: none;
     margin-left: -40px;
   }
   
-  .job-description li::before {
+  body #dark .job-description li::before {
     content: "⬪    "; /* ▹ */
     transform: scale(1.2);
     color: var(--green-bright);
     position: absolute;
     left: 0;
   }
+
+  body #light .job-description li::before {
+    content: "⬪    "; /* ▹ */
+    transform: scale(1.2);
+    color: black;
+    position: absolute;
+    left: 0;
+  }
   
-  .job-description li {
+  body #dark .job-description li {
     position: relative;
     padding-left: 30px;
     padding-bottom: 16px;
     font-size: 18px;
     color: var(--slate);
+  }
+
+  body #light .job-description li {
+    position: relative;
+    padding-left: 30px;
+    padding-bottom: 16px;
+    font-size: 18px;
+    color: black;
   }
   
   .job-description {

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Sound from "react-sound";
+import "../App.css";
 
  const PlaySoundLight = (
     handleSongLoading,
@@ -10,8 +11,8 @@ import Sound from "react-sound";
 
     return (
         <div className="PlaySoundLight">
-            <button onClick={() => setIsPlaying(!isPlaying)}>
-              {!isPlaying ? 'Play' : 'Stop'}
+            <button class="sound" onClick={() => setIsPlaying(!isPlaying)}>
+              <b>{!isPlaying ? 'PLAY     ▹' : 'STOP'}</b>
             </button>
             <Sound
               url="/assets/audio/kudasai-vibrancy.mp3"

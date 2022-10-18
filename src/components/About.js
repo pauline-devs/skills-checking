@@ -3,6 +3,7 @@ import "../styles/About.css";
 import FadeInSection from "./FadeInSection";
 import MagicAsk from "./MagicAsk";
 
+
 class About extends React.Component {
   constructor() {
     super();

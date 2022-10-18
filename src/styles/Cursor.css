@@ -1,0 +1,37 @@
+
+.Cursor-lozenge,
+.Cursor-lozenge-outline {
+    pointer-events: none;
+    position: absolute;
+    transform: rotate(45deg);
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1;
+}
+
+* #dark .Cursor-lozenge {
+    width: 10px;
+    height: 10px;
+    background-color: var(--green-bright);
+}
+
+* #dark .Cursor-lozenge-outline {
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border: 1px solid var(--green-bright);
+}
+
+* #light .Cursor-lozenge {
+    width: 10px;
+    height: 10px;
+    background-color: #ced4da;
+    border: 3px solid black;
+}
+
+* #light .Cursor-lozenge-outline {
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border: 1.5px solid #ced4da;
+}

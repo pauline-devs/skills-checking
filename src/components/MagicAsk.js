@@ -129,7 +129,7 @@ export default function MagicAsk() {
                 </div>
                 <div classname="answer-section">
                     {questions[currentQuestion].answerOptions.map((answerOption) => (
-                        <button onClick={() => handleAnswerButtonClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
+                        <button id="magic-button" onClick={() => handleAnswerButtonClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
                     ))}
                 </div>
             </>
