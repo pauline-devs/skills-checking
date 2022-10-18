@@ -1,15 +1,17 @@
 import React, {useState} from "react";
 import "../styles/MagicAsk.css";
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 export default function MagicAsk() {
     const questions = [
         {
-            questionText:"Who's my favorite mangaka ?",
+            questionText:"Author of chef d'oeuvre 'Spirale' ?",
             answerOptions: [
                 {answerText: "Junji Ito", isCorrect: true},
                 {answerText: "Tsutomu Nihei", isCorrect: false},
                 {answerText: "Akira Toriyama", isCorrect: false},
-                {answerText: "All", isCorrect: false},
             ],
         },
         {
@@ -23,10 +25,9 @@ export default function MagicAsk() {
         {
             questionText:"Movie I could watch & rewatch",
             answerOptions: [
-                {answerText: "Leon the professional", isCorrect: false},
+                {answerText: "Leon, the professional", isCorrect: false},
                 {answerText: "The Beach", isCorrect: false},
                 {answerText: "Mademoiselle", isCorrect: false},
-                {answerText: "Ghost in the shell", isCorrect: true},
             ],
         },
         {
@@ -51,7 +52,7 @@ export default function MagicAsk() {
             ],
         },
         {
-            questionText:"Most played game",
+            questionText:"Most played game during childhood",
             answerOptions: [
                 {answerText: "Ori Blind Forest", isCorrect: false},
                 {answerText: "Yolo Space Hacker", isCorrect: false},
@@ -59,10 +60,10 @@ export default function MagicAsk() {
             ],
         },
         {
-            questionText:"Best book i read this last year",
+            questionText:"Pioneer book upon Cyberpunk",
             answerOptions: [
                 {answerText: "Neuromancien by William Gibson", isCorrect: true},
-                {answerText: "def ?", isCorrect: false},
+                {answerText: "Ghost in the shell", isCorrect: false},
                 {answerText: "def ?", isCorrect: false},
             ],
         },
@@ -75,21 +76,19 @@ export default function MagicAsk() {
             ],
         },
         {
-            questionText:"Bonus: some magic Web3 projects",
-            answerOptions: [
-                {answerText: "Rei (Evangelion)", isCorrect: false},
-                {answerText: "def ?", isCorrect: false},
-                {answerText: "Shiro (Deadman Wonderland)", isCorrect: false},
-                {answerText: "No answer, it's a bonus", isCorrect: true},
-            ],
-        },
-        {
             questionText:"Exoplanet I wish to discover as a naturalist in another life",
             answerOptions: [
                 {answerText: " ??? ", isCorrect: false},
                 {answerText: " ???? ", isCorrect: true},
                 {answerText: " ??? ", isCorrect: false},
-                {answerText: " ??? ", isCorrect: false},
+            ],
+        },
+        {
+            questionText:"Bonus: some magic Web3 projects",
+            answerOptions: [
+                {answerText: "Rei (Evangelion)", isCorrect: false},
+                {answerText: "Shiro (Deadman Wonderland)", isCorrect: false},
+                {answerText: "No answer, it's a bonus", isCorrect: true},
             ],
         },
     ];
@@ -103,6 +102,27 @@ export default function MagicAsk() {
     const handleAnswerButtonClick = (isCorrect) => {
         if (isCorrect===true){
             setScore(score + 1);
+            toast('🌞 Ur Right!', {
+                position: "top-right",
+                autoClose: 2000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: false,
+                draggable: false,
+                progress: undefined,
+                theme: "dark",
+            });
+        } else {
+            toast('🌀 Wrong answer :(', {
+                position: "top-right",
+                autoClose: 2000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: false,
+                draggable: false,
+                progress: undefined,
+                theme: "dark",
+            });
         }
 
         const nextQuestion = currentQuestion + 1;
@@ -115,6 +135,7 @@ export default function MagicAsk() {
 
     return (
         <div classname = "magicAsk">
+            <ToastContainer />
             {showScore ? (
                 <div className="score-section">
                     You scored {score} out of {questions.length} !
@@ -123,11 +144,11 @@ export default function MagicAsk() {
             <>
                 <div className="question-section">
                         <div className="question-count">
-                            <span>Magic Question <a>{currentQuestion + 1}</a></span>/{questions.length}
+                            <span>Magic Question <a><b>{currentQuestion + 1}</b></a></span>/{questions.length}
                         </div>
-                        <div classname="question-text"><a>{questions[currentQuestion].questionText}</a></div>
+                        <div className="question-text"><a><b>{questions[currentQuestion].questionText}</b></a></div>
                 </div>
-                <div classname="answer-section">
+                <div className="answer-section">
                     {questions[currentQuestion].answerOptions.map((answerOption) => (
                         <button id="magic-button" onClick={() => handleAnswerButtonClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
                     ))}

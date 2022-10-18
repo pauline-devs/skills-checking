@@ -7,6 +7,7 @@
     padding-left: 15%;
     padding-right: 25%;
     min-height: 60vh;
+    margin-top: -20vh;
   }
 
   .section-header {
@@ -15,25 +16,19 @@
     align-items: center;
   }
 
-  div #thinLine {
-    border-bottom:0.7px solid white;
-    width: 30%;
-    margin-top: 1vh;
-  }
-
   body #dark .section-title {
-    font-family: "Karrik", sans-serif;
+    font-family: "Millimetre", sans-serif;
     color: white;
     font-weight: 700;
-    font-size: 2em;
+    font-size: 2.5em;
     margin-right: 2vw;
   }
 
   body #light .section-title {
-    font-family: "Karrik", sans-serif;
+    font-family: "Millimetre", sans-serif;
     color: black;
     font-weight: 700;
-    font-size: 2em;
+    font-size: 2.5em;
     margin-right: 2vw;
   }
 
@@ -83,7 +78,7 @@
     font-family: "Karrik", sans-serif;
     color: var(--slate);
     max-width: 600px;
-    font-size: 1.1em;
+    font-size: 1.05em;
     line-height: 1.3em;
     text-align: justify;
     margin: 0;

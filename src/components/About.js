@@ -22,8 +22,9 @@ class About extends React.Component {
     const one = (
       <p>
         I am currently looking for a 
-        <a> Web3 developer job </a>.<br />
-        I have an affinity with Python, Javascript, Flask & React development.
+        <a> UX/UI web3 designer job </a> or for a 
+        <a> Web3 developer job</a>.
+        I have an affinity with Adobe Suite & Figma - Python, Javascript, Flask & React development.
       </p>
     );
     const two = (
@@ -53,8 +54,7 @@ class About extends React.Component {
       <div id="about">
         <FadeInSection>
           <div className="section-header">
-            <span className="section-title">/ about me</span>
-            <div id='thinLine'></div>
+            <span className="section-title">/ About me</span>
           </div>
           <div className="about-content">
             <div className="about-description">

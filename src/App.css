@@ -1,7 +1,13 @@
+
 @font-face {
-    font-family: "Karrik";
-    src: url("/public/fonts/Inter-Medium.woff2") format("woff2");
-  }
+  font-family: "Millimetre";
+  src: url("/public/fonts/Millimetre-Bold_web.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Karrik";
+  src: url("/public/fonts/Inter-Medium.woff2") format("woff2");
+}
 
 * {
   cursor: none;

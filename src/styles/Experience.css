@@ -11,18 +11,6 @@
     align-items: center;
   }
 
-  body #dark div #thinLine {
-    border-bottom:0.7px solid white;
-    width: 25%;
-    margin-top: 1vh;
-  }
-
-  body #light div #thinLine {
-    border-bottom: 1.5px solid black;
-    width: 25%;
-    margin-top: 1vh;
-  }
-
   body #dark .joblist-job-title {
     font-family: "Karrik", sans-serif;
     font-size: 28px;
@@ -104,6 +92,10 @@
 
   body #dark .makeStyles-tabs-2 {
     border-right: 1px solid black !important;
+  }
+
+  body #light .makeStyles-tabs-2 {
+    border-right: 1px solid transparent !important;
   }
 
   #experience .MuiTab-root {

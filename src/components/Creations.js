@@ -46,8 +46,7 @@ class Projects extends React.Component {
     return (
       <div id="projects">
         <div className="section-header ">
-          <span className="section-title">/ software-creations</span>
-          <div id='thinLine'></div>
+          <span className="section-title">/ Software-creations</span>
         </div>
         <div className="project-container">
           <ul className="projects-grid">

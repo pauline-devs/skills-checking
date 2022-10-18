@@ -12,12 +12,6 @@
     align-items: center;
   }
 
-  div #thinLine {
-    border-bottom:0.7px solid white;
-    width: 25%;
-    margin-top: 1vh;
-  }
-  
   .projects-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(300px, 1fr));

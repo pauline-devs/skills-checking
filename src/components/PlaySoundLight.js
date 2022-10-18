@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Sound from "react-sound";
 import "../App.css";
+import AlbumIcon from '@mui/icons-material/Album';
+import PauseCircleFilledIcon from '@mui/icons-material/PauseCircleFilled';
 
  const PlaySoundLight = (
     handleSongLoading,
@@ -12,7 +14,7 @@ import "../App.css";
     return (
         <div className="PlaySoundLight">
             <button class="sound" onClick={() => setIsPlaying(!isPlaying)}>
-              <b>{!isPlaying ? 'PLAY     ▹' : 'STOP'}</b>
+              <b>{!isPlaying ? <AlbumIcon /> : <PauseCircleFilledIcon />}</b>
             </button>
             <Sound
               url="/assets/audio/kudasai-vibrancy.mp3"
