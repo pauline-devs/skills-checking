@@ -22,7 +22,7 @@ class Projects extends React.Component {
     const projects = {
       "Une Rime en Or": {
         desc:
-          "A responsive web-game application created for RapMinerz, with a Flask back-end.",
+          "A responsive web-game application created with RapMinerz, including Flask back-end.",
         techStack: "#Python(Flask), #CSS, #JS, #Pandas Library",
         link: "https://apps.rapminerz.io/rhyme-panel/",
         open: "https://www.rapminerz.io/"
@@ -31,15 +31,13 @@ class Projects extends React.Component {
         desc:
           "Some music artworks I designed for @zeroGuidance friends.",
         techStack: "#Adobe Suite, #hand drawing, #3D design",
-        link: "",
-        open: ""
+        open: "https://alakazam-rough.tumblr.com/music-artworks"
       },
       "Arabic Poetry": {
         desc:
           "A collection of three book covers I designed & illustrated.",
         techStack: "#Adobe Suite, #hand drawing",
-        link: "",
-        open: ""
+        open: "https://jinja-jsx-rough.tumblr.com/design-stuff"
       }
     };
 

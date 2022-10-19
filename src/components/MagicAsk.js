@@ -7,7 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 export default function MagicAsk() {
     const questions = [
         {
-            questionText:"Author of chef d'oeuvre 'Spirale' ?",
+            questionText:"Author of masterpiece Spiral ?",
             answerOptions: [
                 {answerText: "Junji Ito", isCorrect: true},
                 {answerText: "Tsutomu Nihei", isCorrect: false},
@@ -15,7 +15,7 @@ export default function MagicAsk() {
             ],
         },
         {
-            questionText:"Serie I always laugh watching it ?",
+            questionText:"Really fun serie about what it is to work in tech area ?",
             answerOptions: [
                 {answerText: "Cowboy Bebop", isCorrect: false},
                 {answerText: "Sillicon Valley", isCorrect: true},
@@ -23,36 +23,32 @@ export default function MagicAsk() {
             ],
         },
         {
-            questionText:"Movie I could watch & rewatch",
+            questionText:"Guess which film stars my favorite activist actress 😎",
             answerOptions: [
-                {answerText: "Leon, the professional", isCorrect: false},
+                {answerText: "Leon, the professional", isCorrect: true},
                 {answerText: "The Beach", isCorrect: false},
                 {answerText: "Mademoiselle", isCorrect: false},
             ],
         },
         {
-            questionText:"Artist inspiring me the most",
+            questionText:"Which artist is also a sci-fi essayist ?",
             answerOptions: [
                 {answerText: "Aya Takano", isCorrect: true},
                 {answerText: "Tabita Rezaire", isCorrect: false},
-                {answerText: "Miro", isCorrect: false},
+                {answerText: "Man Ray", isCorrect: false},
             ],
         },
         {
-            questionText:"Most admired historic figure",
+            questionText:"A song to listen to FOR SURE under the sun 🌞",
             answerOptions: [
-                {answerText: "John Dee", isCorrect: true},
-                {answerText: "Aleister Crowler", isCorrect: false},
+                {answerText: "Morcheeba - The Sea", isCorrect: false},
+                {answerText: "The Doors - Soul Kitchen", isCorrect: false},
+                {answerText: "Greentea Peng - Make Noise", isCorrect: false},
+                {answerText: "All", isCorrect: true},
             ],
         },
         {
-            questionText:"Music album I could listen all my life under the sun",
-            answerOptions: [
-                {answerText: "The Future Sound Of London - ISDN", isCorrect: true},
-            ],
-        },
-        {
-            questionText:"Most played game during childhood",
+            questionText:"Most played game during my childhood",
             answerOptions: [
                 {answerText: "Ori Blind Forest", isCorrect: false},
                 {answerText: "Yolo Space Hacker", isCorrect: false},
@@ -60,35 +56,35 @@ export default function MagicAsk() {
             ],
         },
         {
-            questionText:"Pioneer book upon Cyberpunk",
+            questionText:"Founding novel of the cyberpunk movement",
             answerOptions: [
+                {answerText: "The three-body problem by Liu Cixin", isCorrect: false},
                 {answerText: "Neuromancien by William Gibson", isCorrect: true},
-                {answerText: "Ghost in the shell", isCorrect: false},
-                {answerText: "def ?", isCorrect: false},
+                {answerText: "SIVA by Philip K.Dick", isCorrect: false},
             ],
         },
         {
-            questionText:"Fictive character qui m'attendrit",
+            questionText:"Young albino girl  known as the original sin",
             answerOptions: [
                 {answerText: "Rei (Evangelion)", isCorrect: false},
-                {answerText: "def ?", isCorrect: false},
+                {answerText: "Puppet Master (Ghost in the shell)", isCorrect: false},
                 {answerText: "Shiro (Deadman Wonderland)", isCorrect: true},
             ],
         },
         {
-            questionText:"Exoplanet I wish to discover as a naturalist in another life",
+            questionText:"One of the exoplanets I wish to discover as a naturalist in another life 🌀",
             answerOptions: [
-                {answerText: " ??? ", isCorrect: false},
-                {answerText: " ???? ", isCorrect: true},
-                {answerText: " ??? ", isCorrect: false},
-            ],
+                {answerText: " 42 Draconis b ", isCorrect: false},
+                {answerText: " LP 890-9 c, a “super-Earth” in the habitable zone of its star. ", isCorrect: true},
+                {answerText: " 91 Aquarii b ", isCorrect: false},
+            ], 
         },
-        {
-            questionText:"Bonus: some magic Web3 projects",
+        { 
+            questionText:"Web3 sci-fantasy world exploring past lives, science & magic",
             answerOptions: [
-                {answerText: "Rei (Evangelion)", isCorrect: false},
-                {answerText: "Shiro (Deadman Wonderland)", isCorrect: false},
-                {answerText: "No answer, it's a bonus", isCorrect: true},
+                {answerText: "Soul Aether", isCorrect: true},
+                {answerText: "Project Ark", isCorrect: false},
+                {answerText: "Sismo Zk Badges", isCorrect: false},
             ],
         },
     ];

@@ -8,7 +8,8 @@
     --light-slate: #a8b2d1;
     --lightest-slate: #ccd6f6;
     --white: #e6f1ff;
-    --green-bright: #64ffda;
+    /* --green-bright: #64ffda; */
+    --green-bright: #61FC9E;
     --green-tint: rgba(100, 255, 218, 0.1);
     --lilac-tint: #E7C6FF;
     --mauve-tint: #C8B6FF;

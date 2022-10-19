@@ -92,9 +92,9 @@ const JobList = () => {
       jobTitle: "",
       duration: "",
       desc: [
-        "Obtained a scientific + art option secondary school diploma (France)",
-        "Studied different fields of arts (ESMA Nantes, France) - ▹ Got a Bachelor Degree in cross media graphic arts, interactive design & illustration (LISAA Nantes, France).",
-        "Got an MBA - Master Degree in International Art Market (ICART, Paris), which allowed me to work as an intern at @La Galerie Cinema, Paris.",
+        "Obtained a scientific earth &  life science + art option secondary school diploma (France)",
+        "Studied different fields of arts (ESMA Nantes, France) - then got a cross media graphic arts, interactive design & illustration diploma (LISAA Nantes, France).",
+        "MBA diploma - Master Degree of International Art Market (ICART, Paris). Also worked as an intern at @La Galerie Cinema, Paris.",
         "Was introduced to Shell & C languages - 42 School, Paris.",
         "Oriented myself into web development branch - WF3 School, Paris."
       ]
@@ -105,15 +105,15 @@ const JobList = () => {
       desc: [
         "Created a Python script in order to manage spotify playlists - using Spotipy Library & Spotipy API technologies",
         "Developed a responsive Flask python application from scratch, both on client and server side - under the leading team supervision",
-        "Collaborated with data scientists following basic practices including coding standards & code reviews."
+        "Collaborated with data scientists following basic practices including communication skills, coding standards & code reviews."
       ]
     },
     "BlocksLab42": {
       jobTitle: "Web3 developer at @",
       duration: "NOV 2022 - CURRENTLY",
       desc: [
-        "Design & development of Web3 react web pages & application - collaborating with blockchain architects & web3 team",
-        "Creation of smart contracts & whitepapers for web3 clients"
+        "Designed & developed Web3 react web pages & application - in collaboration with blockchain architects & web3 team",
+        "Created smart contracts & whitepapers for web3 clients"
       ]
     }
   };
