@@ -15,19 +15,26 @@
   
 html {
     scroll-behavior: smooth;
+    width: 100vw;
+    max-width: 100vw;
   }
 
-  body #dark #content{
+  body #dark {
     background-color: black;
+    width: 100vw;
+    max-width: 100vw;
   }
 
-  body #light #content{
+  body #light {
     background: linear-gradient(270deg, var(--indigo), var(--light-beige));
     background-size: 600% 600%;
 
     -webkit-animation: AnimationName 21s ease infinite;
     -moz-animation: AnimationName 21s ease infinite;
     animation: AnimationName 21s ease infinite;
+
+    width: 100vw;
+    max-width: 100vw;
 }
 
 @-webkit-keyframes AnimationName {
@@ -46,12 +53,13 @@ html {
     100%{background-position:0% 50%}
 }
 
-  /* Sound button */
 
   .App {
     background-color: black;
     display: flex;
     flex-direction: row;
+    width: 100vw;
+    max-width: 100vw;
   }
   .App-logo {
     height: 40vmin;
@@ -84,6 +92,8 @@ html {
     padding-right: 5%;
     padding-left: 5%;
   }
+
+   /* Sound button */
 
   body #dark .sound {
     width: 150px;
@@ -164,14 +174,15 @@ html {
   }
   
   @media only screen and (max-width: 600px) {
-    .App {
+    .App body {
       flex-direction: column;
-      padding: 40px 24px;
+      width: 100vw;
+      max-width: 100vw !important;
     }
   
     #content {
-      padding: 10px 10px;
-      width: 100%;
+      width: 100vw !important;
+      max-width: 100vw !important;
     }
   
     .section-header {

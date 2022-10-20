@@ -116,9 +116,9 @@
     border: none;
   }
   
-  @media only screen and (max-width: 788px) {
-    .about-image img {
-      max-width: 200px;
+  @media only screen and (max-width: 1080px) {
+    .about-image {
+      display: none;
     }
   }
   
@@ -131,20 +131,28 @@
       height: unset;
       padding-left: unset;
       padding-right: unset;
-      padding-top: 30%;
+      margin: 7vw;
+    }
+
+    .section-title {
+      font-size: 25px;
     }
   
     .about-description {
-      font-size: 18px;
+      font-size: 17px !important;
       text-align: justify;
     }
   
     .about-description a,
     .about-description b {
-      font-size: 17px;
+      font-size: 16px;
     }
   
-    .about-image img {
+    .about-description ul {
+      grid-template-columns: repeat(2, minmax(200px, 20px));
+    }
+
+    .about-image {
       display: none;
     }
   

@@ -166,6 +166,7 @@
     #experience {
       padding-left: unset;
       padding-right: unset;
+      margin: 7vw;
     }
   
     .jss1 {
@@ -180,11 +181,15 @@
     }
   
     .joblist-job-title {
-      font-size: 22px;
+      font-size: 21px !important;
     }
   
     .joblist-job-company {
-      font-size: 22px;
+      font-size: 21px !important;
+    }
+
+    .job-description {
+      font-size: 17px !important;
     }
   }
   

@@ -92,8 +92,7 @@ const JobList = () => {
       jobTitle: "",
       duration: "",
       desc: [
-        "Obtained a scientific earth &  life science + art option secondary school diploma (France)",
-        "Studied different fields of arts (ESMA Nantes, France) - then got a cross media graphic arts, interactive design & illustration diploma (LISAA Nantes, France).",
+        "Cross media graphic arts, interactive design & illustration diploma (ESMA & LISAA Nantes, France).",
         "MBA diploma - Master Degree of International Art Market (ICART, Paris). Also worked as an intern at @La Galerie Cinema, Paris.",
         "Was introduced to Shell & C languages - 42 School, Paris.",
         "Oriented myself into web development branch - WF3 School, Paris."

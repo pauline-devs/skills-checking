@@ -42,14 +42,14 @@ function App() {
                 ? <PlaySoundDark />
                 : <PlaySoundLight />
               }
-          </div>
+            </div>
           <Cursor></Cursor>
           <Intro></Intro>
           <About></About>
           <Experience></Experience>
           <Creations></Creations>
           <Credits></Credits>
-        </div>
+      </div>
         <SidebarNav />
       </div>
     </ThemeContext.Provider>

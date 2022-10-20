@@ -43,7 +43,7 @@ class About extends React.Component {
       "Javascript ES6+",
       "Python",
       "React.js",
-      "Flask framework",
+      "Flask",
       "Node.js",
       "HTML & CSS"
     ];
