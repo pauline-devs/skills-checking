@@ -17,7 +17,7 @@ import PauseCircleFilledIcon from '@mui/icons-material/PauseCircleFilled';
               <b>{!isPlaying ? <AlbumIcon /> : <PauseCircleFilledIcon />}</b>
             </button>
             <Sound
-              url="/assets/audio/kudasai-serenade.mp3"
+              url="./assets/audio/kudasai-serenade.mp3"
               playStatus={
                 isPlaying ? Sound.status.PLAYING : Sound.status.STOPPED
               }
