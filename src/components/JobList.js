@@ -88,7 +88,7 @@ const JobList = () => {
   const [value, setValue] = React.useState(0);
 
   const experienceItems = {
-    "Scholar road": {
+    "Education": {
       jobTitle: "",
       duration: "",
       desc: [

@@ -22,8 +22,7 @@ class About extends React.Component {
     const one = (
       <p>
         I am currently looking for a 
-        <a> UX/UI web3 designer job </a> or for a 
-        <a> Web3 developer job</a>.
+        <a> UX/UI web3 designer or developer job</a>.
         I have an affinity with Adobe Suite & Figma - Python, Javascript, Flask & React development.
       </p>
     );

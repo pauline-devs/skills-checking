@@ -23,21 +23,21 @@ class Projects extends React.Component {
       "Une Rime en Or": {
         desc:
           "A responsive web-game application created with RapMinerz, including Flask back-end.",
-        techStack: "#Python(Flask), #CSS, #JS, #Pandas Library",
+        techStack: "#Flask python, #CSS, #JS, #Pandas Library",
         link: "https://apps.rapminerz.io/rhyme-panel/",
         open: "https://www.rapminerz.io/"
       },
-      "Music Artworks": {
+      "Python-blockchain": {
         desc:
-          "Some music artworks I designed for @zeroGuidance friends.",
-        techStack: "#Adobe Suite, #hand drawing, #3D design",
-        open: "https://alakazam-rough.tumblr.com/music-artworks"
+          "Blockchain based model code trial (using Flask, Node.js & React.js) - in order to better understand the technology.",
+        techStack: "#Flask python, #React.js, #Node.js",
+        link: "https://github.com/pauline-rdn/python-blockchain"
       },
       "Arabic Poetry": {
         desc:
           "A collection of three book covers I designed & illustrated.",
         techStack: "#Adobe Suite, #hand drawing",
-        open: "https://jinja-jsx-rough.tumblr.com/design-stuff"
+        open: "https://alakazam-rough.tumblr.com/design-stuff"
       }
     };
 
