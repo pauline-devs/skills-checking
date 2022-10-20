@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/skills-checking/static/css/main.0b531dd4.css",
+    "main.js": "/skills-checking/static/js/main.4f35d78c.js",
+    "static/media/Inter-Medium.woff2": "/skills-checking/static/media/Inter-Medium.d0a58d956cf2f4cf078f.woff2",
+    "static/media/Millimetre-Bold_web.woff2": "/skills-checking/static/media/Millimetre-Bold_web.d405e62aeb6d889300b0.woff2",
+    "index.html": "/skills-checking/index.html",
+    "main.0b531dd4.css.map": "/skills-checking/static/css/main.0b531dd4.css.map",
+    "main.4f35d78c.js.map": "/skills-checking/static/js/main.4f35d78c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b531dd4.css",
+    "static/js/main.4f35d78c.js"
+  ]
+}
