@@ -167,7 +167,7 @@ b{
     .intro-desc {
       font-size: 18px !important;
       text-align: center !important;
-      max-width: unset;
+      max-width: 80% !important;
       padding-bottom: 40px;
       margin-left: auto;
       margin-right: auto;

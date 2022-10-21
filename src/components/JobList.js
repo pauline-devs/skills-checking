@@ -107,12 +107,14 @@ const JobList = () => {
         "Collaborated with data scientists following basic practices including communication skills, coding standards & code reviews."
       ]
     },
-    "BlocksLab42": {
-      jobTitle: "Web3 developer at @",
-      duration: "NOV 2022 - CURRENTLY",
+    "Next Step": {
+      jobTitle: "",
+      duration: "CURRENTLY - ASAP",
       desc: [
-        "Designed & developed Web3 react web pages & application - in collaboration with blockchain architects & web3 team",
-        "Created smart contracts & whitepapers for web3 clients"
+        "looking for a web3 developer job",
+        "Design & develop beautiful web pages & applications - in collaboration with blockchain architects & web3 team",
+        "Strong interest in the creation of smart contracts, builiding metaverses or play-to-earn games",
+        "Invest myself in order to deepen and optimize my skills : collaboration & communication with lead developers, dev team and clients/ interest in react.js, node.js, typescript, vue.js, python, flask, javascript & three.js technologies"
       ]
     }
   };
