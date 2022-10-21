@@ -13,21 +13,22 @@ npm run deploy iterate with gh-pages
 
 ## COLOR CODES
 
-theme toggle : https://react-toggle-dark-mode.netlify.app/ <br />
-               https://github.com/JoseRFelix/react-toggle-dark-mode
+theme toggle : <br />
+https://react-toggle-dark-mode.netlify.app/ <br />
+https://github.com/JoseRFelix/react-toggle-dark-mode
 
 dark theme :
 
---green-bright: #61FC9E;
---slate: #8892b0;
---light-slate: #a8b2d1;
---lightest-slate: #ccd6f6;
---lightest-navy: #233554;
+--green-bright: #61FC9E;<br />
+--slate: #8892b0;<br />
+--light-slate: #a8b2d1;<br />
+--lightest-slate: #ccd6f6;<br />
+--lightest-navy: #233554;<br />
 
 light theme :
 
---indigo: #5D6EDD;
---light-gray: #ced4da;
+--indigo: #5D6EDD;<br />
+--light-gray: #ced4da;<br />
 
 ### REACT NOTIFICATIONS FOR THE QUIZZ GAME
 [https://fkhadra.github.io/react-toastify/introduction/]
