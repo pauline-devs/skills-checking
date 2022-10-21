@@ -1,4 +1,4 @@
-# INSTALL DEPENDENCIES
+## INSTALL DEPENDENCIES
 
 npm install or yarn
 
@@ -6,15 +6,15 @@ npm install or yarn
 
 npm run start
 
-### PRODUCTION BUILD
+## PRODUCTION BUILD
 
 npm run build
 npm run deploy iterate with gh-pages
 
-### COLOR CODES
+## COLOR CODES
 
-theme toggle : [https://react-toggle-dark-mode.netlify.app/]
-               [https://github.com/JoseRFelix/react-toggle-dark-mode]
+theme toggle : https://react-toggle-dark-mode.netlify.app/ <br />
+               https://github.com/JoseRFelix/react-toggle-dark-mode
 
 dark theme :
 
