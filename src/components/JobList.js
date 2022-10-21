@@ -114,7 +114,7 @@ const JobList = () => {
         "looking for a web3 developer job",
         "Design & develop beautiful web pages & applications - in collaboration with blockchain architects & web3 team",
         "Strong interest in the creation of smart contracts, builiding metaverses or play-to-earn games",
-        "Invest myself in order to deepen and optimize my skills : collaboration & communication with lead developers, dev team and clients/ interest in react.js, node.js, typescript, vue.js, python, flask, javascript & three.js technologies"
+        "Invest myself in order to deepen and optimize my skills : interest in react.js | node.js | typescript |  vue.js | python | javascript | three.js technologies"
       ]
     }
   };
