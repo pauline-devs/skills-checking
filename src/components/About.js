@@ -31,8 +31,6 @@ class About extends React.Component {
         Outside of work, I am interested in following the developments of
         art and tech. I have strong interest in music, drawing, animation & video-game arts, reading comics and mangas.
         I think I am an enthousiastic learner who love to explore life.
-        I also experiment art stuff sometimes - Here is <a href="https://"> my instagram </a> account 
-        if you are interested in knowing my universe (°_°)
       </p>
     );
   

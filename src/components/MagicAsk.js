@@ -14,20 +14,20 @@ export default function MagicAsk() {
                 {answerText: "Akira Toriyama", isCorrect: false},
             ],
         },
+        { 
+            questionText:"Web3 sci-fantasy world exploring past lives, science & magic",
+            answerOptions: [
+                {answerText: "Soul Aether", isCorrect: true},
+                {answerText: "Project Ark", isCorrect: false},
+                {answerText: "Sismo Zk Badges", isCorrect: false},
+            ],
+        },
         {
             questionText:"Really fun serie about what it is to work in tech area ?",
             answerOptions: [
                 {answerText: "Cowboy Bebop", isCorrect: false},
                 {answerText: "Sillicon Valley", isCorrect: true},
                 {answerText: "Serial Experimental Lain", isCorrect: false},
-            ],
-        },
-        {
-            questionText:"Guess which film stars my favorite activist actress 😎",
-            answerOptions: [
-                {answerText: "Leon, the professional", isCorrect: true},
-                {answerText: "The Beach", isCorrect: false},
-                {answerText: "Mademoiselle", isCorrect: false},
             ],
         },
         {
@@ -39,36 +39,11 @@ export default function MagicAsk() {
             ],
         },
         {
-            questionText:"A song to listen to FOR SURE under the sun 🌞",
-            answerOptions: [
-                {answerText: "Morcheeba - The Sea", isCorrect: false},
-                {answerText: "The Doors - Soul Kitchen", isCorrect: false},
-                {answerText: "Greentea Peng - Make Noise", isCorrect: false},
-                {answerText: "All", isCorrect: true},
-            ],
-        },
-        {
-            questionText:"Most played game during my childhood",
-            answerOptions: [
-                {answerText: "Ori Blind Forest", isCorrect: false},
-                {answerText: "Yolo Space Hacker", isCorrect: false},
-                {answerText: "Pokemon on DS :)", isCorrect: true},
-            ],
-        },
-        {
             questionText:"Founding novel of the cyberpunk movement",
             answerOptions: [
                 {answerText: "The three-body problem by Liu Cixin", isCorrect: false},
                 {answerText: "Neuromancien by William Gibson", isCorrect: true},
                 {answerText: "SIVA by Philip K.Dick", isCorrect: false},
-            ],
-        },
-        {
-            questionText:"Young albino girl  known as the original sin",
-            answerOptions: [
-                {answerText: "Rei (Evangelion)", isCorrect: false},
-                {answerText: "Puppet Master (Ghost in the shell)", isCorrect: false},
-                {answerText: "Shiro (Deadman Wonderland)", isCorrect: true},
             ],
         },
         {
@@ -78,14 +53,6 @@ export default function MagicAsk() {
                 {answerText: " LP 890-9 c, a “super-Earth” in the habitable zone of its star. ", isCorrect: true},
                 {answerText: " 91 Aquarii b ", isCorrect: false},
             ], 
-        },
-        { 
-            questionText:"Web3 sci-fantasy world exploring past lives, science & magic",
-            answerOptions: [
-                {answerText: "Soul Aether", isCorrect: true},
-                {answerText: "Project Ark", isCorrect: false},
-                {answerText: "Sismo Zk Badges", isCorrect: false},
-            ],
         },
     ];
 

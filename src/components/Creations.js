@@ -33,6 +33,12 @@ class Projects extends React.Component {
         techStack: "#Flask python, #React.js, #Node.js",
         link: "https://github.com/pauline-rdn/python-blockchain"
       },
+      "matrix-rain-js": {
+        desc:
+          "Code matrix rain with p5.js (Misc. math symbols & Katakana char) - as part of the design of a personal project",
+        techStack: "#p5.js, #blender.3D, #touch designer, #hand drawing, #adobe suite",
+        link: "https://github.com/pauline-rdn/matrix-rain-js"
+      },
       "Arabic Poetry": {
         desc:
           "A collection of three book covers I designed & illustrated.",
