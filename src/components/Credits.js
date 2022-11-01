@@ -21,7 +21,7 @@ class Credits extends React.Component {
       <FadeInSection>
         <div id="credits">
           <div className="ending-credits">
-            <div>Built with React.js (leveraging Material UI)<br />Built and designed by Pauline R. </div>
+            <div>Built with React.js (leveraging Material UI)</div>
             <div>All rights reserved. ©</div>
           </div>
         </div>

@@ -35,7 +35,7 @@ class Projects extends React.Component {
       },
       "matrix-rain-js": {
         desc:
-          "Code matrix rain with p5.js (Misc. math symbols & Katakana char) - as part of the design of a personal project",
+          "Code matrix rain with p5.js (Misc. math symbols & Katakana char) - as part of the design for a personal project",
         techStack: "#p5.js, #blender.3D, #touch designer, #hand drawing, #adobe suite",
         link: "https://github.com/pauline-rdn/matrix-rain-js"
       },
