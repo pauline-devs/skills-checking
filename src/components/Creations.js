@@ -24,20 +24,26 @@ class Projects extends React.Component {
         desc:
           "A responsive web-game application created with RapMinerz, including Flask back-end.",
         techStack: "#Flask python, #CSS, #JS, #Pandas Library",
-        link: "https://apps.rapminerz.io/rhyme-panel/",
-        open: "https://www.rapminerz.io/"
+        open: "https://apps.rapminerz.io/rhyme-panel/"
       },
-      "Python-blockchain": {
+      "OnChained technical test": {
         desc:
-          "Blockchain based model code trial (using Flask, Node.js & React.js) - in order to better understand the technology.",
-        techStack: "#Flask python, #React.js, #Node.js",
-        link: "https://github.com/pauline-rdn/python-blockchain"
+          "Implement a basic web3 feature in an app",
+        techStack: "#React.js, #Web3, #Metamask",
+        link: "https://github.com/pauline-rdn/etherscore-technical-test",
+        open: "https://inspiring-pastelito-26fdd8.netlify.app/"
       },
-      "matrix-rain-js": {
+      "CryptoZombies learning": {
         desc:
-          "Code matrix rain with p5.js (Misc. math symbols & Katakana char) - as part of the design for a personal project",
-        techStack: "#p5.js, #blender.3D, #touch designer, #hand drawing, #adobe suite",
-        link: "https://github.com/pauline-rdn/matrix-rain-js"
+          "solidity & web3 exercises following courses on the cryptozombies web platform",
+        techStack: "#Web3, #Solidity, #SmartContract",
+        link: "https://github.com/pauline-rdn/crypto-zombies-learning"
+      },
+      "Blender3d Training": {
+        desc:
+          "3D artworks & animations side creations as a self-taught CG artist ",
+        techStack: "#Blender3D, #Modelisation, #3DAnimation, #Shading, #ParticleSettings, #Adobe Suite",
+        open: "https://www.artstation.com/user-6723969"
       },
       "Arabic Poetry": {
         desc:

@@ -104,17 +104,16 @@ const JobList = () => {
       desc: [
         "Created a Python script in order to manage spotify playlists - using Spotipy Library & Spotipy API technologies",
         "Developed a responsive Flask python application from scratch, both on client and server side - under the leading team supervision",
-        "Collaborated with data scientists following basic practices including communication skills, coding standards & code reviews."
       ]
     },
-    "Next Step": {
-      jobTitle: "",
-      duration: "CURRENTLY - ASAP",
+    "OnChained Lab": {
+      jobTitle: "Web developer at @",
+      duration: "DEC 2022 - PRESENT",
       desc: [
-        "looking for a web3 developer job",
-        "Design & develop beautiful web pages & applications - in collaboration with blockchain architects & web3 team",
-        "Strong interest in the creation of smart contracts, builiding metaverses or play-to-earn games",
-        "Invest myself in order to deepen and optimize my skills : interest in react.js | node.js | typescript |  vue.js | python | javascript | three.js technologies"
+        "Collaborate with experienced cross-disciplinary developers to conceive and design web3 products.",
+        "Design & develop OnChained Lab's landing page.",
+        "Design & develop OnChained Lab's applications  - in collaboration with web3 developers and UX/UI team.",
+        "Technologies in use : react.js | node.js |  vue.js | typescript | docker | adobe suite."
       ]
     }
   };

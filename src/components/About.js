@@ -70,7 +70,7 @@ class About extends React.Component {
               {[two]}
             </div>
             <div className="about-image">
-              <img src={"./assets/alakazam-1.gif"} />
+              <img src={"./assets/alakazam-1.gif"} alt='alakazam' />
               <MagicAsk></MagicAsk>
             </div>
           </div>
