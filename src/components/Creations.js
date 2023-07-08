@@ -20,10 +20,18 @@ class Projects extends React.Component {
   }
   render() {
     const projects = {
+      "Etherscore - rebranding": {
+        desc:
+          "Designed & developed Etherscore landing page, in collaboration with ux/ui team.",
+        techStack: "#React.js, #CSS, #JS",
+        link: "https://etherscore.network/",
+        open: "https://etherscore.network/"
+      },
       "Une Rime en Or": {
         desc:
           "A responsive web-game application created with RapMinerz, including Flask back-end.",
         techStack: "#Flask python, #CSS, #JS, #Pandas Library",
+        link: "https://apps.rapminerz.io/rhyme-panel/",
         open: "https://apps.rapminerz.io/rhyme-panel/"
       },
       "OnChained technical test": {
@@ -49,7 +57,7 @@ class Projects extends React.Component {
         desc:
           "A collection of three book covers I designed & illustrated.",
         techStack: "#Adobe Suite, #hand drawing",
-        open: "https://alakazam-rough.tumblr.com/design-stuff"
+        open: "https://www.behance.net/gallery/172747937/Arabic-poetry-book-design"
       }
     };
 

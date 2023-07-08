@@ -32,7 +32,7 @@ class Intro extends React.Component {
                     </span>
                 </Typist>
                 <FadeInSection>
-                    <div className="intro-subtitle">I am a designer & Web developer,<br/>based in Paris.</div>
+                    <div className="intro-subtitle">I am a designer & Web developer,<br/>based in Paris and Marseille, France</div>
                     <div className="intro-desc">
                         <p>
                         I have great interest in software development, human/computer interactions and creative interactive experiences.

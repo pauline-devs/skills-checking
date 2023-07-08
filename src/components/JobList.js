@@ -92,7 +92,7 @@ const JobList = () => {
       jobTitle: "",
       duration: "",
       desc: [
-        "Cross media graphic arts, interactive design & illustration diploma (ESMA & LISAA Nantes, France).",
+        "Graphic arts, interactive design & illustration diploma (ESMA & LISAA Nantes, France).",
         "MBA diploma - Master Degree of International Art Market (ICART, Paris). Also worked as an intern at @La Galerie Cinema, Paris.",
         "Was introduced to Shell & C languages - 42 School, Paris.",
         "Oriented myself into web development branch - WF3 School, Paris."
@@ -106,14 +106,13 @@ const JobList = () => {
         "Developed a responsive Flask python application from scratch, both on client and server side - under the leading team supervision",
       ]
     },
-    "OnChained Lab": {
+    "OnChained Lab/ Etherscore": {
       jobTitle: "Web developer at @",
       duration: "DEC 2022 - PRESENT",
       desc: [
+        "Design & develop OnChained Lab's websites and applications  - in collaboration with web3 developers and UX/UI team.",
         "Collaborate with experienced cross-disciplinary developers to conceive and design web3 products.",
-        "Design & develop OnChained Lab's landing page.",
-        "Design & develop OnChained Lab's applications  - in collaboration with web3 developers and UX/UI team.",
-        "Technologies in use : react.js | node.js |  vue.js | typescript | docker | adobe suite."
+        "Technologies in use : react.js, node.js, vue.js, typescript, docker, adobe suite, web security tools such as sonarqube."
       ]
     }
   };

@@ -3,7 +3,7 @@ import { Sidenav } from "rsuite";
 import EmailRoundedIcon from '@mui/icons-material/EmailRounded';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import InstagramIcon from '@mui/icons-material/Instagram';
+import PreviewIcon from '@mui/icons-material/Preview';
 
 
 import "../styles/SidebarNav.css";
@@ -69,8 +69,8 @@ class SidebarNav extends React.Component {
           <a href="https://www.linkedin.com/in/pauline-rondeau-3b6662254/">
             <LinkedInIcon style={{ fontSize: 21 }}></LinkedInIcon>
           </a>
-          <a href="https://">
-            <InstagramIcon style={{ fontSize: 21 }}></InstagramIcon>
+          <a href="https://www.behance.net/paulinestudio">
+            <PreviewIcon src='' style={{ fontSize: 21 }}></PreviewIcon>
           </a>
         </div>
       </div>

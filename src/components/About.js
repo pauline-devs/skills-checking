@@ -21,8 +21,8 @@ class About extends React.Component {
   render() {
     const one = (
       <p>
-        I am currently looking for a 
-        <a> UX/UI web3 designer or developer job</a>.
+        I am currently working as a remote
+        <a href='https://etherscore.network/' target='_blank'> UX/UI web3 designer and developer at @OnChained Lab/ Etherscore</a>.
         I have an affinity with Adobe Suite & Figma - Python, Javascript, Flask & React development.
       </p>
     );
