@@ -1,10 +1,9 @@
 import React from "react";
 import { Sidenav } from "rsuite";
 import EmailRoundedIcon from '@mui/icons-material/EmailRounded';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import InstagramIcon from '@mui/icons-material/Instagram';
 import PreviewIcon from '@mui/icons-material/Preview';
-
+import EqualizerIcon from '@mui/icons-material/Equalizer';
 
 import "../styles/SidebarNav.css";
 import "react-typist/dist/Typist.css";
@@ -59,17 +58,17 @@ class SidebarNav extends React.Component {
             </Sidenav.Body>
           </Sidenav>
         )}
-        <div className="sidebar-logos" href="/">
+        <div className="sidebar-logos" href="/" target="_blank">
           <a href="mailto:pauline.rdn.contact@protonmail.com">
             <EmailRoundedIcon style={{ fontSize: 20 }}></EmailRoundedIcon>
           </a>
-          <a href="https://github.com/pauline-rdn">
-            <GitHubIcon style={{ fontSize: 19 }}></GitHubIcon>
+          <a href="https://www.instagram.com/drummykutz/" target="_blank">
+            <InstagramIcon style={{ fontSize: 19 }}></InstagramIcon>
           </a>
-          <a href="https://www.linkedin.com/in/pauline-rondeau-3b6662254/">
-            <LinkedInIcon style={{ fontSize: 21 }}></LinkedInIcon>
+          <a href="https://soundcloud.com/user-820425882" target="_blank">
+            <EqualizerIcon style={{ fontSize: 21 }}></EqualizerIcon>
           </a>
-          <a href="https://www.behance.net/paulinestudio">
+          <a href="https://beacons.ai/d.kutz" target="_blank">
             <PreviewIcon src='' style={{ fontSize: 21 }}></PreviewIcon>
           </a>
         </div>

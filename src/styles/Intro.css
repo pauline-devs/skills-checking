@@ -15,7 +15,7 @@ body #dark .Typist {
 }
 
 body #light .Typist {
-  color: black;
+  color: white;
   text-align: center;
   font-size: 76px;
   margin-top: -30px;
@@ -27,7 +27,7 @@ body #dark .Typist .Cursor--blinking{
 }
 
 body #light .Typist .Cursor--blinking{
-  color: #ced4da;
+  color: #D8F342;
   text-shadow: 0.5px 0.5px 1px black;
   padding-left: 4px;
 }
@@ -46,29 +46,29 @@ body #dark .intro-name{
 body #light .intro-name{
   font-family: "Millimetre", sans-serif;
   font-size: 1em;
-  color: #ced4da;
+  color: #D8F342;
 }
 
 body #dark .intro-subtitle{
     font-family: "Karrik", sans-serif;
     color: var(--slate);
     font-weight: 500;
-    font-size: 1.5em;
+    font-size: 21px;
     line-height: 1.15em;
 }
 
 body #light .intro-subtitle{
   font-family: "Karrik", sans-serif;
-  color: black;
+  color: white;
   font-weight: 500;
-  font-size: 1.5em;
+  font-size: 21px;
   line-height: 1.15em;
 }
 
 body #dark .intro-desc{
     font-family: "Karrik", sans-serif;
     color: var(--slate);
-    font-size: 1.15em;
+    font-size: 16px;
     text-align: justify;
     padding-bottom: 50px;
     max-width: 50%;
@@ -78,8 +78,8 @@ body #dark .intro-desc{
 
 body #light .intro-desc{
   font-family: "Karrik", sans-serif;
-  color: black;
-  font-size: 1.2em;
+  color: white;
+  font-size: 16px;
   text-align: justify;
   padding-bottom: 50px;
   max-width: 50%;
@@ -112,17 +112,17 @@ body #light .intro-contact{
   cursor: pointer;
   border: 1.5px solid black;
   background-color: black;
-  color: #ced4da !important;
+  color: #D8F342 !important;
   border-radius: 3px;
 }
 
 body #dark .intro-contact:hover{
-    background-color: var(--lightest-navy);
+    background-color: var(--light-navy);
 }
 
 body #light .intro-contact:hover{
-  background-color: black;
-  color: var(--lightest-slate) !important;
+  background-color: #D8F342;
+  color: black !important;
 }
 
 b{

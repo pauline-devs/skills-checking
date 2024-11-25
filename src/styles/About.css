@@ -16,6 +16,16 @@
     align-items: center;
   }
 
+  body a {
+    text-decoration: none !important;
+  }
+
+
+  body #light a {
+    text-decoration: none !important;
+    color: #D8F342;
+  }
+
   body #dark .section-title {
     font-family: "Millimetre", sans-serif;
     color: white;
@@ -26,7 +36,7 @@
 
   body #light .section-title {
     font-family: "Millimetre", sans-serif;
-    color: black;
+    color: white;
     font-weight: 700;
     font-size: 2.5em;
     margin-right: 2vw;
@@ -42,15 +52,15 @@
   body #dark .about-description li {
     position: relative;
     padding-left: 20px;
-    font-size: 18px;
+    font-size: 16px;
     color: var(--slate);
   }
 
   body #light .about-description li {
     position: relative;
     padding-left: 20px;
-    font-size: 18px;
-    color: black;
+    font-size: 16px;
+    color: white;
   }
   
   body #dark .about-description li::before {
@@ -62,7 +72,7 @@
 
   body #light .about-description li::before {
     content: "⬪   "; /*  ▹  */
-    color: black;
+    color: white;
     position: absolute;
     left: 0;
   }
@@ -70,7 +80,7 @@
   .about-content {
     display: flex;
     flex-direction: row;
-    font-size: 1.1em;
+    font-size: 16px;
     line-height: 1.3em;
   }
   
@@ -78,7 +88,7 @@
     font-family: "Karrik", sans-serif;
     color: var(--slate);
     max-width: 600px;
-    font-size: 1.05em;
+    font-size: 16px;
     line-height: 1.3em;
     text-align: justify;
     margin: 0;
@@ -86,9 +96,9 @@
 
   body #light .about-description {
     font-family: "Karrik", sans-serif;
-    color: black;
+    color: white;
     max-width: 600px;
-    font-size: 1.1em;
+    font-size: 16px;
     line-height: 1.3em;
     text-align: justify;
     margin: 0;
@@ -96,34 +106,33 @@
   
   .about-description a,
   .about-description b {
-    font-size: 1em;
+    font-size: 16px;
     line-height: 1.3em;
     font-weight: bold;
   }
-  
+
+
   .about-image {
     padding-left: 40px;
     display: flex;
     align-items: center;
     flex-direction: column;
-  }
-  
-  .about-image img {
+    position: relative; 
+}
+
+.about-image img {
     max-width: 300px;
     height: auto;
     border-radius: 10px;
     box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.46);
     border: none;
-  }
+    margin-bottom: 10px; 
+}
   
   @media only screen and (max-width: 1080px) {
     .about-image {
       display: none;
     }
-  }
-  
-  .about-image:hover {
-    transform: translateY(-7px);
   }
   
   @media only screen and (max-width: 600px) {

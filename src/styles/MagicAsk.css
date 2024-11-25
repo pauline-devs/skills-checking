@@ -1,12 +1,13 @@
-.magicAsk{
-    max-width: 300px;
-    min-height: 200px;
-    height: min-content;
-    border-radius: 15px;
-    box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.46);
-    display: flex;
-    align-content: center;
-    margin-top: 2vh;
+.magicAsk {
+  max-width: 300px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.46);
+  display: flex;
+  flex-direction: column; 
+  align-content: center;
+  margin-top: 2vh;
+  position: relative; 
 }
 
   .score-section {
@@ -14,7 +15,7 @@
     font-family: "Karrik", sans-serif;
     font-size: 21px;
     align-items: center;
-    margin-top: 3vh;
+    margin-top: 2vh;
     background: linear-gradient(to right top, red, yellow, blue);
     background-clip: text;
     -webkit-background-clip: text;
@@ -102,7 +103,7 @@
     font-family: "Karrik", sans-serif;
     font-size: 16px;
     text-align: center;
-    color: var(--lightest-slate);
+    color: #D8F342;
     background-color: black;
     border-radius: 10px;
     display: flex;
@@ -123,12 +124,13 @@
   }
 
   body #light #magic-button:hover, #magic-button:before, #magic-button:after{
-    background-color: #ced4da;
-    border-color: #ced4da;
+    background-color: #D8F342;
+    border-color: #D8F342;
     color: black;
     transform: scale(1.05);
     transition: ease, cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 0.4s;
+    border: 1.5px solid black;
   }
   
   button:focus {

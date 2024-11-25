@@ -32,10 +32,10 @@ class Intro extends React.Component {
                     </span>
                 </Typist>
                 <FadeInSection>
-                    <div className="intro-subtitle">I am a designer & Web developer,<br/>based in Paris and Marseille, France</div>
+                    <div className="intro-subtitle">I am a designer and creative developer,<br/>based in Paris & Marseille, France</div>
                     <div className="intro-desc">
                         <p>
-                        I have great interest in software development, human/computer interactions and creative interactive experiences.
+                        I have great interest in software development, human/computer interactions, implementing art and storytelling into creative experiences.
                         </p>
                     </div>
                     <a href="mailto:pauline.rdn.contact@protonmail.com" className="intro-contact">

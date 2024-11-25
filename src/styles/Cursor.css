@@ -25,7 +25,7 @@
 * #light .Cursor-lozenge {
     width: 10px;
     height: 10px;
-    background-color: #ced4da;
+    background-color: #D8F342;
     border: 3px solid black;
 }
 
@@ -33,5 +33,5 @@
     width: 25px;
     height: 25px;
     background-color: transparent;
-    border: 1.5px solid #ced4da;
+    border: 1.5px solid #D8F342;
 }

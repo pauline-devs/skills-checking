@@ -22,15 +22,26 @@ class About extends React.Component {
     const one = (
       <p>
         I am currently working as a remote
-        <a href='https://etherscore.network/' target='_blank'> UX/UI web3 designer and developer at @OnChained Lab/ Etherscore</a>.
-        I have an affinity with Adobe Suite & Figma - Python, Javascript, Flask & React development.
+        <a href='https://etherscore.network/' target='_blank'> UX/UI web3 designer and front-end engineer at @OnChained Lab/ Etherscore</a>.
+        <br/>
+        I have an affinity with Adobe Suite & Figma - Javascript, React.js and 3D tools.
+        <br/> <br/>
+        <a>
+        I now plan to focus on creative code technologies
+        </a>
+        &nbsp;(WebGL, Three.js and react-three, Next.js, Blender3D/Cinema4D).
+        This also matters to me to improve my commitment into the Web3 ecosystem, 
+        <a>
+        &nbsp; paying close attention to the DeFi landscape & security issues.
+        </a>
       </p>
     );
     const two = (
       <p>
-        Outside of work, I am interested in following the developments of
-        art and tech. I have strong interest in music, drawing, animation & video-game arts, reading comics and mangas.
-        I think I am an enthousiastic learner who love to explore life.
+        <a>Outside of work,&nbsp;</a> I am interested in following the developments of art and tech. 
+        I also have strong connection with music, I am a percussionist in traditional yoruba + salsa orchestras, and 
+        I host a monthly dj set emission on Pinata Radio (Montpellier, Fr) - through which I promote <a>my coded tracks (using Sonic Pi software)&nbsp;</a> + gems I found.
+        I think I am <a>an enthousiastic learner who love to explore life.</a>
       </p>
     );
   
@@ -38,10 +49,10 @@ class About extends React.Component {
 
     const tech_stack = [
       "Javascript ES6+",
-      "Python",
+      "Figma & Adobe Suite",
       "React.js",
-      "Flask",
-      "Node.js",
+      "Flask Python",
+      "Vue.js",
       "HTML & CSS"
     ];
 

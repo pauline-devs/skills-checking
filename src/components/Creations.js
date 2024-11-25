@@ -20,26 +20,41 @@ class Projects extends React.Component {
   }
   render() {
     const projects = {
-      "Etherscore - rebranding": {
+      "Freaky Friendz Squad": {
         desc:
-          "Designed & developed Etherscore landing page, in collaboration with ux/ui team.",
+          " I launched my side business Freaky Friendz Squad, which is a magic streetwear and art brand to let oddity shine. Because All Familiar Things Were Once Strange.",
+        techStack: "#Shopify #Hand-drawing #In-Between World #Lightworking #Esoterism",
+        link: "https://freakyfriendzsquad.com/",
+      },
+      "Ghost In The Deckshell - Sonic Pi music production": {
+        desc:
+          "Introduced myself into electronic music production using Sonic Pi software. I create my visuals using mixed-media art I made * AI generation",
+        techStack: "#SonicPi #Midjourney",
+        link: "https://on.soundcloud.com/cvQZXhr8xArwaUv69",
+      },
+      "Etherscore - Beta Dapp": {
+        desc:
+          "Designed & developed Etherscore DApp, as part of UX team + collaborated with backend team: Connect Blockchain/back-end data/client side, wallet integration & more",
+        techStack: "#React.js, #CSS, #Sonarqube, #Docker, #Git, #Typescript, #Figma, #Adobe Suit, #Wagmi/Viem/Web3 Modal",
+        link: "https://beta.etherscore.network/",
+      },
+      "Etherscore - Rebranding & Landing Page": {
+        desc:
+          "Designed, rebranded & developed Etherscore landing page, in collaboration with ux/ui team.",
         techStack: "#React.js, #CSS, #JS",
         link: "https://etherscore.network/",
-        open: "https://etherscore.network/"
       },
       "Une Rime en Or": {
         desc:
-          "A responsive web-game application created with RapMinerz, including Flask back-end.",
+          "A responsive web-game application created for RapMinerz, including Flask back-end.",
         techStack: "#Flask python, #CSS, #JS, #Pandas Library",
         link: "https://apps.rapminerz.io/rhyme-panel/",
-        open: "https://apps.rapminerz.io/rhyme-panel/"
       },
-      "OnChained technical test": {
+      "Etherscore - Test for EN/FR + dark/light switch": {
         desc:
-          "Implement a basic web3 feature in an app",
+          "Implement a basic web3 feature in an app + add possibilities for language & theme switch.",
         techStack: "#React.js, #Web3, #Metamask",
-        link: "https://github.com/pauline-rdn/etherscore-technical-test",
-        open: "https://inspiring-pastelito-26fdd8.netlify.app/"
+        link: "https://inspiring-pastelito-26fdd8.netlify.app",
       },
       "CryptoZombies learning": {
         desc:
@@ -47,17 +62,17 @@ class Projects extends React.Component {
         techStack: "#Web3, #Solidity, #SmartContract",
         link: "https://github.com/pauline-rdn/crypto-zombies-learning"
       },
-      "Blender3d Training": {
+      "Blender3d Freaks": {
         desc:
-          "3D artworks & animations side creations as a self-taught CG artist ",
+          "3D artworks as training for self-teaching CG art ",
         techStack: "#Blender3D, #Modelisation, #3DAnimation, #Shading, #ParticleSettings, #Adobe Suite",
-        open: "https://www.artstation.com/user-6723969"
+        link: "https://www.artstation.com/user-6723969"
       },
-      "Arabic Poetry": {
+      "Design & Edition Bundle": {
         desc:
-          "A collection of three book covers I designed & illustrated.",
+          "A collection of book & music covers I designed & illustrated.",
         techStack: "#Adobe Suite, #hand drawing",
-        open: "https://www.behance.net/gallery/172747937/Arabic-poetry-book-design"
+        link: "https://www.behance.net/paulinestudio"
       }
     };
 
@@ -70,6 +85,7 @@ class Projects extends React.Component {
           <ul className="projects-grid">
             {Object.keys(projects).map((key, i) => (
               <FadeInSection delay={`${i + 1}00ms`}>
+                <a href={projects[key]["link"]} target='_blank'>
                 <li className="projects-card">
                   <div className="card-header">
                     <div className="folder-icon">
@@ -77,16 +93,13 @@ class Projects extends React.Component {
                         style={{ fontSize: 35 }}
                       ></FolderZipIcon>
                     </div>
-                    <ExternalLinks
-                      githubLink={projects[key]["link"]}
-                      openLink={projects[key]["open"]}
-                    ></ExternalLinks>
+                    <ExternalLinks></ExternalLinks>
                   </div>
-
                   <div className="card-title">{key}</div>
                   <div className="card-desc">{projects[key]["desc"]}</div>
                   <div className="card-tech">{projects[key]["techStack"]}</div>
                 </li>
+                </a>
               </FadeInSection>
             ))}
           </ul>

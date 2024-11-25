@@ -32,7 +32,7 @@
     color: var(--green-bright) !important;
   }
 
-  body #light a {
+  body #light .sidebar-nav a {
     text-decoration: none !important;
     color: black!important;
   }
@@ -41,8 +41,8 @@
     color: var(--lightest-slate) !important;
   }
 
-  body #light a:hover {
-    color: #ced4da !important;
+  body #light .sidebar-nav a:hover {
+    color: #D8F342 !important;
   }
   
   .sidebar-logos {

@@ -114,7 +114,7 @@ html {
     border: none;
     border-radius: 0;
     background: linear-gradient(to left, black 10%, transparent 80%);
-    color: var(--lightest-slate);
+    color: #D8F342;
   }
 
   body .sound:hover, .sound:before, .sound:after{

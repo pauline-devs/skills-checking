@@ -39,20 +39,12 @@ export default function MagicAsk() {
             ],
         },
         {
-            questionText:"Founding novel of the cyberpunk movement",
+            questionText:"Famous novel of the cyberpunk movement",
             answerOptions: [
                 {answerText: "The three-body problem by Liu Cixin", isCorrect: false},
                 {answerText: "Neuromancien by William Gibson", isCorrect: true},
                 {answerText: "SIVA by Philip K.Dick", isCorrect: false},
             ],
-        },
-        {
-            questionText:"One of the exoplanets I wish to discover as a naturalist in another life 🌀",
-            answerOptions: [
-                {answerText: " 42 Draconis b ", isCorrect: false},
-                {answerText: " LP 890-9 c, a “super-Earth” in the habitable zone of its star. ", isCorrect: true},
-                {answerText: " 91 Aquarii b ", isCorrect: false},
-            ], 
         },
     ];
 
