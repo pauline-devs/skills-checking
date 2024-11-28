@@ -63,8 +63,9 @@ const JobList = () => {
       jobTitle: "",
       duration: "",
       desc: [
-        "Integrated a one year Fine Arts overview (manaa), mainly studying drawing skills/ Two Years studying Interactive design & graphic arts & obtained Bachelor degree diploma (ESMA & LISAA Nantes, France).",
-        "MBA diploma - Master Degree of International Art Market (ICART, Paris), focusing on exhibition curation & art advisoring, economy, history, anthropology of the arts. I also worked as an intern at @La Galerie Cinema, Paris.",
+        "Integrated a one year Fine Arts overview (manaa): mainly studying drawing skills",
+        "I studied Interactive design & graphic arts: obtained a Bachelor degree diploma (ESMA & LISAA Nantes, France).",
+        "MBA diploma - Master Degree of International Art Market (ICART, Paris): focusing on exhibition curation & art advisoring, economy, history, anthropology of the arts. I also was head of digital art sales as an intern at @La Galerie Cinema, Paris.",
       ],
     },
     "Education/Tech": {
@@ -79,23 +80,25 @@ const JobList = () => {
       jobTitle: "Intern at @",
       duration: "MAY & JUNE 2022",
       desc: [
-        "Created a Python script in order to manage Spotify playlists - using Spotipy Library & Spotipy API technologies.",
-        "Developed a responsive Flask Python application from scratch, both on client and server side - under the leading team supervision.",
+        "Rap Minerz is the first french rap media with a data perspective.",
+        "Getting started with Python:  I created a script that could add, delete, rank or group songs in playlists by keyword.This had to efficiently manage Team's spotify playlists: Rap Minerz's team collects data from RapFR lyrics. - Technologies in use: Spotipy Library & Spotipy API.",
+        "Developed from scratch 'UNE RIME EN OR' (referring to 'une famille en or', the french version of 'Family Feud') a responsive web game app, both on client and server side - Tools in use: Flask Python ",
       ],
     },
     "Etherscore/2022": {
       jobTitle: "Front-End Engineer at @",
       duration: "2022",
       desc: [
-        "Redesigned Alpha DApp: suggested UX/UI schemes & designs, connection with sustainable web3 wallet solutions, design of NFT templates and communication posts destined to Twitter or collaborators (investors, partners team).",
+        "Alpha DApp: helps you grow your web3 reputation using nfts based on your achievements. I Contributed to the app's makeover with new UX/UI schemes and designs, new nft templates, and connected client with new sustainable web3 wallet solutions.",
+        "Relevant technologies: Vue.js, Figma, Adobe Suite."
       ],
     },
     "Etherscore/Last mission": {
       jobTitle: "Front-End Engineer at @",
       duration: "2022 - PRESENT",
       desc: [
-        "Designed with UX team, and developed from scratch: the Landing-Page + Beta Version of the DApp: blockchain, backend data & wallet integration, user input validation and error handling.",
-        "Technologies in use: Vue.js, React.js, Figma, Adobe Suite, Wagmi/Viem/Web3 Modal, Node.js, TypeScript, Docker, security tools such as SonarQube.",
+        "Designed and developed, in collaboration with UX/UI team, the front-end architecture of the Landing-page and the new Beta DApp (including solid solutions for back-end, blockchain data and wallet integrations, new front-end skills acquired, user input validation and error handling).",
+        "Tools in use: React.js, Sonarqube, Docker, Git, Typescript, Figma, Adobe Suite, Wagmi/Viem/Web3 Modal.",
       ],
     },
   };

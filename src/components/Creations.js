@@ -22,58 +22,58 @@ class Projects extends React.Component {
     const projects = {
       "Freaky Friendz Squad": {
         desc:
-          " I launched my side business Freaky Friendz Squad, which is a magic streetwear and art brand to let oddity shine. Because All Familiar Things Were Once Strange.",
-        techStack: "#Shopify #Hand-drawing #In-Between World #Lightworking #Esoterism",
+          " I launched my side business Freaky Friendz Squad: a streetwear and artsy brand with a hint of magic.",
+        techStack: "#Shopify #Hand-drawing #Brand Design #In-Between World",
         link: "https://freakyfriendzsquad.com/",
       },
       "Ghost In The Deckshell - Sonic Pi music production": {
         desc:
-          "Introduced myself into electronic music production using Sonic Pi software. I create my visuals using mixed-media art I made * AI generation",
+          "I Introduced myself to electronic music production, using Sonic Pi software.",
         techStack: "#SonicPi #Midjourney",
         link: "https://on.soundcloud.com/cvQZXhr8xArwaUv69",
       },
       "Etherscore - Beta Dapp": {
         desc:
-          "Designed & developed Etherscore DApp, as part of UX team + collaborated with backend team: Connect Blockchain/back-end data/client side, wallet integration & more",
+          "Etherscore helps you grow your web3 reputation by minting nft badges based on your web3 achievements.",
         techStack: "#React.js, #CSS, #Sonarqube, #Docker, #Git, #Typescript, #Figma, #Adobe Suit, #Wagmi/Viem/Web3 Modal",
         link: "https://beta.etherscore.network/",
       },
       "Etherscore - Rebranding & Landing Page": {
         desc:
-          "Designed, rebranded & developed Etherscore landing page, in collaboration with ux/ui team.",
+          "I Designed, rebranded & developed Etherscore landing page and front-end architecture",
         techStack: "#React.js, #CSS, #JS",
         link: "https://etherscore.network/",
       },
       "Une Rime en Or": {
         desc:
-          "A responsive web-game application created for RapMinerz, including Flask back-end.",
+          "A responsive web game application created for RapMinerz, including Flask back-end. The purpose behind the app is to find the most used words to rhyme with a given word, based on French rap texts.",
         techStack: "#Flask python, #CSS, #JS, #Pandas Library",
         link: "https://apps.rapminerz.io/rhyme-panel/",
       },
       "Etherscore - Test for EN/FR + dark/light switch": {
         desc:
-          "Implement a basic web3 feature in an app + add possibilities for language & theme switch.",
+          "Implementation of a basic web3 feature + add possibilities for language & theme switch.",
         techStack: "#React.js, #Web3, #Metamask",
         link: "https://inspiring-pastelito-26fdd8.netlify.app",
       },
       "CryptoZombies learning": {
         desc:
-          "solidity & web3 exercises following courses on the cryptozombies web platform",
+          "solidity & web3 training, following the cryptozombies web platform courses",
         techStack: "#Web3, #Solidity, #SmartContract",
         link: "https://github.com/pauline-rdn/crypto-zombies-learning"
-      },
-      "Blender3d Freaks": {
-        desc:
-          "3D artworks as training for self-teaching CG art ",
-        techStack: "#Blender3D, #Modelisation, #3DAnimation, #Shading, #ParticleSettings, #Adobe Suite",
-        link: "https://www.artstation.com/user-6723969"
       },
       "Design & Edition Bundle": {
         desc:
           "A collection of book & music covers I designed & illustrated.",
         techStack: "#Adobe Suite, #hand drawing",
         link: "https://www.behance.net/paulinestudio"
-      }
+      },
+      "Blender3d Freaks": {
+        desc:
+          "3D artworks I made as a training for self-teaching CG art ",
+        techStack: "#Blender3D, #Modelisation, #3DAnimation, #Shading, #ParticleSettings, #Adobe Suite",
+        link: "https://www.artstation.com/user-6723969"
+      },
     };
 
     return (

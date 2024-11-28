@@ -81,6 +81,15 @@
     background-color: #D8F342 !important;
   }
 
+  body #dark .PrivateTabIndicator-colorSecondary-7 {
+    background-color: var(--green-bright) !important;
+  }
+
+  body #light .PrivateTabIndicator-colorSecondary-7 {
+    background-color: #D8F342 !important;
+  }
+
+
   body #dark .jss5 {
     background-color: var(--green-bright) !important;
   }
@@ -91,7 +100,7 @@
 
 
   body #dark .makeStyles-tabs-2 {
-    border-right: 1px solid white !important;
+    border-right: 1px solid transparent !important;
   }
 
   body #light .makeStyles-tabs-2 {
