@@ -69,7 +69,7 @@ body #dark .intro-desc{
     font-family: "Karrik", sans-serif;
     color: var(--slate);
     font-size: 16px;
-    text-align: justify;
+    /* text-align: justify; */
     padding-bottom: 50px;
     max-width: 50%;
     line-height: 1.25em;
@@ -80,7 +80,7 @@ body #light .intro-desc{
   font-family: "Karrik", sans-serif;
   color: white;
   font-size: 16px;
-  text-align: justify;
+  /* text-align: justify; */
   padding-bottom: 50px;
   max-width: 50%;
   line-height: 1.3em;
@@ -158,15 +158,17 @@ b{
     }
   
     .intro-subtitle {
-      font-size: 21px !important;
+      font-size: 18px !important;
       text-align:center;
       margin-left: auto;
       margin-right: auto;
+      padding-left: 10px;
+      padding-right: 10px;
     }
   
     .intro-desc {
-      font-size: 18px !important;
-      text-align: center !important;
+      font-size: 16px !important;
+      /* text-align: center !important; */
       max-width: 80% !important;
       padding-bottom: 40px;
       margin-left: auto;
