@@ -81,7 +81,7 @@ const JobList = () => {
       duration: "MAY & JUNE 2022",
       desc: [
         "Rap Minerz is the first french rap media with a data perspective.",
-        "Getting started with Python:  I created a script that could add, delete, rank or group songs in playlists by keyword.This had to efficiently manage Team's spotify playlists: Rap Minerz's team collects data from RapFR lyrics. - Technologies in use: Spotipy Library & Spotipy API.",
+        "Getting started with Python:  I created a script that could add, delete, rank or group songs in playlists by keyword - Technologies in use: Spotipy Library & Spotipy API.",
         "Developed from scratch 'UNE RIME EN OR' (referring to 'une famille en or', the french version of 'Family Feud') a responsive web game app, both on client and server side - Tools in use: Flask Python ",
       ],
     },
@@ -98,7 +98,7 @@ const JobList = () => {
       duration: "2022 - PRESENT",
       desc: [
         "Designed and developed, in collaboration with UX/UI team, the front-end architecture of the Landing-page and the new Beta DApp (including solid solutions for back-end, blockchain data and wallet integrations, new front-end skills acquired, user input validation and error handling).",
-        "Tools in use: React.js, Sonarqube, Docker, Git, Typescript, Figma, Adobe Suite, Wagmi/Viem/Web3 Modal.",
+        "Tools in use: React.js, Sonarqube, Docker, Git, Typescript, Figma, Adobe Suite, Wagmi/Viem/Web3 Modal, Framer Motion",
       ],
     },
   };

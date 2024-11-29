@@ -26,6 +26,12 @@ class Projects extends React.Component {
         techStack: "#Shopify #Hand-drawing #Brand Design #In-Between World",
         link: "https://freakyfriendzsquad.com/",
       },
+      "Webtopia Cybertale": {
+        desc:
+          " A Cyber-Artsy microcosm as playgroud for my Next.js, WebGL & Blockchain learnings - destined to be improved as my tech stack grows.",
+        techStack: "#NextJs, #GSAP, #Framer motion, #react-three-fiber",
+        link: "https://webtopiacybertale.netlify.app/",
+      },
       "Ghost In The Deckshell - Sonic Pi music production": {
         desc:
           "I Introduced myself to electronic music production, using Sonic Pi software.",
@@ -35,7 +41,7 @@ class Projects extends React.Component {
       "Etherscore - Beta Dapp": {
         desc:
           "Etherscore helps you grow your web3 reputation by minting nft badges based on your web3 achievements.",
-        techStack: "#React.js, #CSS, #Sonarqube, #Docker, #Git, #Typescript, #Figma, #Adobe Suit, #Wagmi/Viem/Web3 Modal",
+        techStack: "#React.js, #CSS, #Sonarqube, #Docker, #Git, #Typescript, #Figma, #Adobe Suit, #Wagmi/Viem/Web3 Modal, #Framer Motion",
         link: "https://beta.etherscore.network/",
       },
       "Etherscore - Rebranding & Landing Page": {

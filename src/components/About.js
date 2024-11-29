@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/About.css";
 import FadeInSection from "./FadeInSection";
 import MagicAsk from "./MagicAsk";
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
 class About extends React.Component {
   constructor() {
@@ -23,20 +24,32 @@ class About extends React.Component {
         I am currently working as a remote
         <a href='https://etherscore.network/' target='_blank'> UX/UI web3 designer and front-end engineer at @OnChained Lab/ Etherscore</a>.
         I plan to
-        <a>&nbsp;focus on creative code technologies
+        <a href='https://webtopiacybertale.netlify.app/' target='_blank'>&nbsp;focus on creative code technologies
         </a>
         &nbsp;(GSAP, Three.js and react-three using Next.js, Blender3D/Cinema4D).
         This matters to me to improve my commitment into the Web3 ecosystem, 
-        <a>
+        <a href='https://aquaprotocolxyz.medium.com/module-4-security-in-defi-67feace838d8' target='_blank'>
         &nbsp; paying close attention to the DeFi landscape & security issues.
+        </a><br/><br/>
+        <a  href='https://webtopiacybertale.netlify.app/'
+            target='_blank'
+            style={{display: 'flex', flexDirection:'raw', alignItems:'center', gap:'5px'}}
+        >
+          Discover my latest self-taught front-end project
+          <OpenInNewIcon
+              style={{
+                fontSize: 18,
+              }}
+          ></OpenInNewIcon>
         </a>
       </p>
     );
+
     const two = (
       <p>
-        <a>Outside of work,&nbsp;</a> I am interested in following the developments of art and tech.
+        Outside of work, I am interested in <a href='https://www.awwwards.com/' target='_blank'>following the developments of art and tech.</a>
         <br/> 
-        I am <a>an enthousiastic learner who love to explore life!&nbsp;</a>
+        I am <a href='https://stepik.org/course/176754/promo' target='_blank'>an enthousiastic learner who love to explore life!&nbsp;</a>
         When I log off from my computer, I wear my second suit: the one of a percussionist in Salsa/Yoruba orchestras & radio show
         host on Pinata Radio - through which I play <a href='https://on.soundcloud.com/cvQZXhr8xArwaUv69' target='_blank'>my coded tracks&nbsp;</a> and newly-found gems.
       </p>

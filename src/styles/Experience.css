@@ -89,6 +89,16 @@
     background-color: #D8F342 !important;
   }
 
+  body #dark .PrivateTabIndicator-colorSecondary-22 {
+    background-color: var(--green-bright) !important;
+  }
+
+  body #light .PrivateTabIndicator-colorSecondary-22 {
+    background-color: #D8F342 !important;
+  }
+
+  
+
 
   body #dark .jss5 {
     background-color: var(--green-bright) !important;

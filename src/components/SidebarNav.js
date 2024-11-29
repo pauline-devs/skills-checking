@@ -4,6 +4,8 @@ import EmailRoundedIcon from '@mui/icons-material/EmailRounded';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import PreviewIcon from '@mui/icons-material/Preview';
 import EqualizerIcon from '@mui/icons-material/Equalizer';
+import BrushOutlinedIcon from '@mui/icons-material/BrushOutlined';
+import RemoveRedEyeOutlinedIcon from '@mui/icons-material/RemoveRedEyeOutlined';
 
 import "../styles/SidebarNav.css";
 import "react-typist/dist/Typist.css";
@@ -61,6 +63,9 @@ class SidebarNav extends React.Component {
         <div className="sidebar-logos" href="/" target="_blank">
           <a href="mailto:pauline.rdn.contact@protonmail.com">
             <EmailRoundedIcon style={{ fontSize: 20 }}></EmailRoundedIcon>
+          </a>
+          <a href="https://www.behance.net/paulinestudio" target="_blank">
+            <RemoveRedEyeOutlinedIcon src='' style={{ fontSize: 21 }}></RemoveRedEyeOutlinedIcon>
           </a>
           <a href="https://www.instagram.com/drummykutz/" target="_blank">
             <InstagramIcon style={{ fontSize: 19 }}></InstagramIcon>
