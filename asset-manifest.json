@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/skills-checking/static/css/main.f114cefc.css",
-    "main.js": "/skills-checking/static/js/main.7928834d.js",
+    "main.js": "/skills-checking/static/js/main.1276d09c.js",
     "static/media/Inter-Medium.woff2": "/skills-checking/static/media/Inter-Medium.d0a58d956cf2f4cf078f.woff2",
     "static/media/Millimetre-Bold_web.woff2": "/skills-checking/static/media/Millimetre-Bold_web.d405e62aeb6d889300b0.woff2",
     "index.html": "/skills-checking/index.html",
     "main.f114cefc.css.map": "/skills-checking/static/css/main.f114cefc.css.map",
-    "main.7928834d.js.map": "/skills-checking/static/js/main.7928834d.js.map"
+    "main.1276d09c.js.map": "/skills-checking/static/js/main.1276d09c.js.map"
   },
   "entrypoints": [
     "static/css/main.f114cefc.css",
-    "static/js/main.7928834d.js"
+    "static/js/main.1276d09c.js"
   ]
 }
