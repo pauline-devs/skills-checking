@@ -22,16 +22,19 @@ class About extends React.Component {
     const one = (
       <p>
         I am currently working as a remote
-        <a href='https://etherscore.network/' target='_blank'> UX/UI web3 designer and front-end engineer at @OnChained Lab/ Etherscore</a>.
-        I plan to
-        <a href='https://webtopiacybertale.netlify.app/' target='_blank'>&nbsp;focus on creative code technologies
+        <a href='https://www.malt.fr/profile/paulinerondeau1' target='_blank'> UX/UI web3 designer and front-end engineer</a>.
+        Lately, my personal challenge has been to
+        <a href='https://webtopiacybertale.netlify.app/' target='_blank'>&nbsp;develop my skills in Creative Coding technologies
         </a>
-        &nbsp;(GSAP, Three.js and react-three using Next.js, Blender3D/Cinema4D).
-        This matters to me to improve my commitment into the Web3 ecosystem, 
-        <a href='https://aquaprotocolxyz.medium.com/module-4-security-in-defi-67feace838d8' target='_blank'>
-        &nbsp; paying close attention to the DeFi landscape & security issues.
-        </a><br/><br/>
-        <a  href='https://webtopiacybertale.netlify.app/'
+        &nbsp;(GSAP, Three.js, react-three, Blender 3D/Cinema4D).
+        <br/>
+        I also plan to strenghten my interest in the Blockchain ecosystem, 
+        <a href='https://ufo.fm/' target='_blank'>
+        &nbsp; paying close attention to arts & music news, 
+        </a>
+        &nbsp;the DeFi landscape & the security issues.
+        <br/><br/>
+        {/* <a  href='https://webtopiacybertale.netlify.app/'
             target='_blank'
             style={{display: 'flex', flexDirection:'raw', alignItems:'center', gap:'5px'}}
         >
@@ -41,7 +44,7 @@ class About extends React.Component {
                 fontSize: 18,
               }}
           ></OpenInNewIcon>
-        </a>
+        </a> */}
       </p>
     );
 
@@ -49,9 +52,9 @@ class About extends React.Component {
       <p>
         Outside of work, I am interested in <a href='https://www.awwwards.com/' target='_blank'>following the developments of art and tech.</a>
         <br/> 
-        I am <a href='https://stepik.org/course/176754/promo' target='_blank'>an enthousiastic learner who love to explore life!&nbsp;</a>
-        When I log off from my computer, I wear my second suit: the one of a percussionist in Salsa/Yoruba orchestras & radio show
-        host on Pinata Radio - through which I play <a href='https://on.soundcloud.com/cvQZXhr8xArwaUv69' target='_blank'>my coded tracks&nbsp;</a> and newly-found gems.
+        I think I am <a href='https://www.artstation.com/user-6723969' target='_blank'>an enthousiastic learner who love to explore!&nbsp;</a>
+        <br/> 
+        When I log off from my computer, I enjoy creating various kinds of artsy wizardries, such as drawing characters from other worlds and <a href='https://on.soundcloud.com/EzkU7FJZA3psGmXW8' target='_blank'>coding music.</a>
       </p>
     );
   
@@ -59,11 +62,11 @@ class About extends React.Component {
 
     const tech_stack = [
       "Javascript ES6+",
+      "React.js & Vue.js",
       "Figma & Adobe Suite",
-      "React.js",
+      "Shopify",
       "Flask Python",
       "HTML & CSS",
-      "Vue.js"
     ];
 
     const tech_items = tech_stack.map(stack => <li>{stack}</li>);

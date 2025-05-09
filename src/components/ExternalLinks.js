@@ -1,5 +1,5 @@
 import React from "react";
-import GitHubIcon from '@mui/icons-material/GitHub';
+import LaunchIcon from '@mui/icons-material/Launch';
 import OpenInBrowserIcon from '@mui/icons-material/OpenInBrowser';
 
 class ExternalLinks extends React.Component {
@@ -20,12 +20,12 @@ class ExternalLinks extends React.Component {
     return (
       <span className="external-links">
         <a className="github-icon" href={this.props.githubLink}>
-          <GitHubIcon
+          <LaunchIcon
             style={{
               fontSize: 20,
               color: "var(--lightest-slate)"
             }}
-          ></GitHubIcon>
+          ></LaunchIcon>
         </a>
         {this.props.openLink && (
           <a className="open-icon" href={this.props.openLink}>

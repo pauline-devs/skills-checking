@@ -63,17 +63,25 @@ const JobList = () => {
       jobTitle: "",
       duration: "",
       desc: [
-        "Integrated a one year Fine Arts overview (manaa): mainly studying drawing skills",
-        "I studied Interactive design & graphic arts: obtained a Bachelor degree diploma (ESMA & LISAA Nantes, France).",
-        "MBA diploma - Master Degree of International Art Market (ICART, Paris): focusing on exhibition curation & art advisoring, economy, history, anthropology of the arts. I also was head of digital art sales as an intern at @La Galerie Cinema, Paris.",
+        "I enrolled in an applied arts foundation course to study academic drawing and various artistic techniques (ESMA Nantes, France)",
+        "I obtained a Bachelor degree diploma in Interactive design and graphic arts (ESMA/LISAA Nantes, France).",
+        "I graduated with a Master's degree in International Art Market (ICART, Paris): this one-year MBA involved active participation in art fairs, as well as discovering the operational part of auction houses, art galleries and museums.",
+      ],
+    },
+    "La Galerie Cinéma": {
+      jobTitle: "Intern at @",
+      duration: "JUNE - AUG 2021",
+      desc: [
+        "I practiced the fundamentals of exhibition curation and art advising through real case studies",
+        "I was responsible for sales and managed the digital transition as an intern at @La Galerie Cinema, Paris."
       ],
     },
     "Education/Tech": {
       jobTitle: "",
       duration: "",
       desc: [
-        "Intensive learning: Shell & C languages - 42 School, Paris.",
-        "Self-taught Web development Front-end/ Back-end, 3D modeling, arts x music x crypto ecosystem - through YouTube, online courses & resources such as Awwwards.com.",
+        "I joined the 42 school's programm in Paris (known as La Piscine): one month of intense coding practice through daily challenges and weekly exams, focusing on Shell and C programming languages.",
+        "Self-taught in web development (both front-end and back-end), 3D modeling and blockchain structures. Platforms explored: YouTube, online courses, and industry resources like Awwwards.com, freecodecamp.org, web3.career..",
       ],
     },
     "Rap Minerz": {
@@ -85,7 +93,7 @@ const JobList = () => {
         "Developed from scratch 'UNE RIME EN OR' (referring to 'une famille en or', the french version of 'Family Feud') a responsive web game app, both on client and server side - Tools in use: Flask Python ",
       ],
     },
-    "Etherscore/2022": {
+    "Etherscore/early steps": {
       jobTitle: "Front-End Engineer at @",
       duration: "2022",
       desc: [
@@ -93,9 +101,9 @@ const JobList = () => {
         "Relevant technologies: Vue.js, Figma, Adobe Suite."
       ],
     },
-    "Etherscore/Last mission": {
+    "Etherscore/core mission": {
       jobTitle: "Front-End Engineer at @",
-      duration: "2022 - PRESENT",
+      duration: "2022 - 2025",
       desc: [
         "Designed and developed, in collaboration with UX/UI team, the front-end architecture of the Landing-page and the new Beta DApp (including solid solutions for back-end, blockchain data and wallet integrations, new front-end skills acquired, user input validation and error handling).",
         "Tools in use: React.js, Sonarqube, Docker, Git, Typescript, Figma, Adobe Suite, Wagmi/Viem/Web3 Modal, Framer Motion",

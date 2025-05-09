@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Creations.css";
-import FolderZipIcon from '@mui/icons-material/FolderZip';
+import LanguageRoundedIcon from '@mui/icons-material/LanguageRounded';
 import FadeInSection from "./FadeInSection";
 import ExternalLinks from "./ExternalLinks";
 
@@ -20,31 +20,25 @@ class Projects extends React.Component {
   }
   render() {
     const projects = {
-      "Freaky Friendz Squad": {
-        desc:
-          " I launched my side business Freaky Friendz Squad: a streetwear and artsy brand with a hint of magic.",
-        techStack: "#Shopify #Hand-drawing #Brand Design #In-Between World",
-        link: "https://freakyfriendzsquad.com/",
-      },
       "Webtopia Cybertale": {
         desc:
-          " A Cyber-Artsy microcosm as playgroud for my Next.js, WebGL & Blockchain learnings - destined to be improved as my tech stack grows.",
+          " A Cyber-Artsy microcosm thought as a playgroud for my WebGLlearnings - destined to be improved as my tech stack grows.",
         techStack: "#NextJs, #GSAP, #Framer motion, #react-three-fiber",
         link: "https://webtopiacybertale.netlify.app/",
       },
-      "Ghost In The Deckshell - Sonic Pi music production": {
+      "Sonic Pi": {
         desc:
-          "I Introduced myself to electronic music production, using Sonic Pi software.",
+          "I Introduced myself to live coding and electronic music production, using Sonic Pi software.",
         techStack: "#SonicPi #Midjourney",
         link: "https://on.soundcloud.com/cvQZXhr8xArwaUv69",
       },
-      "Etherscore - Beta Dapp": {
+      "Etherscore: Beta Dapp": {
         desc:
           "Etherscore helps you grow your web3 reputation by minting nft badges based on your web3 achievements.",
         techStack: "#React.js, #CSS, #Sonarqube, #Docker, #Git, #Typescript, #Figma, #Adobe Suit, #Wagmi/Viem/Web3 Modal, #Framer Motion",
         link: "https://beta.etherscore.network/",
       },
-      "Etherscore - Rebranding & Landing Page": {
+      "Etherscore: Rebranding the Landing Page": {
         desc:
           "I Designed, rebranded & developed Etherscore landing page and front-end architecture",
         techStack: "#React.js, #CSS, #JS",
@@ -56,25 +50,25 @@ class Projects extends React.Component {
         techStack: "#Flask python, #CSS, #JS, #Pandas Library",
         link: "https://apps.rapminerz.io/rhyme-panel/",
       },
-      "Etherscore - Test for EN/FR + dark/light switch": {
+      "Dark/Light switch": {
         desc:
-          "Implementation of a basic web3 feature + add possibilities for language & theme switch.",
+          "Implementation of a basic web3 feature, language & theme switch.",
         techStack: "#React.js, #Web3, #Metamask",
         link: "https://inspiring-pastelito-26fdd8.netlify.app",
       },
       "CryptoZombies learning": {
         desc:
-          "solidity & web3 training, following the cryptozombies web platform courses",
+          "solidity training (smart contracts for web3), following the cryptozombies web platform courses",
         techStack: "#Web3, #Solidity, #SmartContract",
         link: "https://github.com/pauline-rdn/crypto-zombies-learning"
       },
-      "Design & Edition Bundle": {
+      "Behance Bundle": {
         desc:
-          "A collection of book & music covers I designed & illustrated.",
+          "A collection of book and music covers I designed and illustrated.",
         techStack: "#Adobe Suite, #hand drawing",
         link: "https://www.behance.net/paulinestudio"
       },
-      "Blender3d Freaks": {
+      "3D Freakies": {
         desc:
           "3D artworks I made as a training for self-teaching CG art ",
         techStack: "#Blender3D, #Modelisation, #3DAnimation, #Shading, #ParticleSettings, #Adobe Suite",
@@ -95,9 +89,9 @@ class Projects extends React.Component {
                 <li className="projects-card">
                   <div className="card-header">
                     <div className="folder-icon">
-                      <FolderZipIcon
+                      <LanguageRoundedIcon 
                         style={{ fontSize: 35 }}
-                      ></FolderZipIcon>
+                      ></LanguageRoundedIcon >
                     </div>
                     <ExternalLinks></ExternalLinks>
                   </div>

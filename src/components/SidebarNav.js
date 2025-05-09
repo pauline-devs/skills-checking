@@ -1,10 +1,8 @@
 import React from "react";
 import { Sidenav } from "rsuite";
 import EmailRoundedIcon from '@mui/icons-material/EmailRounded';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import PreviewIcon from '@mui/icons-material/Preview';
 import EqualizerIcon from '@mui/icons-material/Equalizer';
-import BrushOutlinedIcon from '@mui/icons-material/BrushOutlined';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import RemoveRedEyeOutlinedIcon from '@mui/icons-material/RemoveRedEyeOutlined';
 
 import "../styles/SidebarNav.css";
@@ -67,14 +65,11 @@ class SidebarNav extends React.Component {
           <a href="https://www.behance.net/paulinestudio" target="_blank">
             <RemoveRedEyeOutlinedIcon src='' style={{ fontSize: 21 }}></RemoveRedEyeOutlinedIcon>
           </a>
-          <a href="https://www.instagram.com/drummykutz/" target="_blank">
-            <InstagramIcon style={{ fontSize: 19 }}></InstagramIcon>
+          <a href="https://github.com/pauline-devs" target="_blank">
+            <GitHubIcon src='' style={{ fontSize: 21 }}></GitHubIcon>
           </a>
           <a href="https://soundcloud.com/user-820425882" target="_blank">
             <EqualizerIcon style={{ fontSize: 21 }}></EqualizerIcon>
-          </a>
-          <a href="https://beacons.ai/d.kutz" target="_blank">
-            <PreviewIcon src='' style={{ fontSize: 21 }}></PreviewIcon>
           </a>
         </div>
       </div>
